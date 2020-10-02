@@ -2,6 +2,5 @@
 
 <h1><?= $page->title() ?></h1>
 
-Test
-
+Default template 
 <?php snippet ('footer') ?>
