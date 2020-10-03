@@ -1,0 +1,10 @@
+title: Archive
+
+sections:
+  archive:
+    type: pages
+    layout: list
+    help: red dots mean artwork was not published yet
+    image:
+      cover: true
+      ratio: 2/1

@@ -1,1 +1,1 @@
-<title><?= $title ?></title>
+<title><?= $site->title() ?> | <?= $page->title() ?></title>
