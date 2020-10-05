@@ -1,0 +1,20 @@
+title: Static Pages
+
+columns:
+  left:
+    width: 1/2
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          cover: true
+  right:
+    width: 1/2
+    sections:
+      content: 
+        type: fields
+        fields:
+          text:
+            type: textarea
+            size: medium

@@ -1,0 +1,25 @@
+Title: Work Title N3
+
+----
+
+Author: Author Id
+
+----
+
+Author-id: 
+
+----
+
+Text: text in english
+
+----
+
+Tags: reference, visual
+
+----
+
+Archiveinsertiondate: 2020-10-16 23:20
+
+----
+
+Archive-insertion-date: 

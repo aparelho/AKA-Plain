@@ -4,7 +4,7 @@ sections:
   archive:
     extends: sections/item
     type: pages
-    template: archive-item
+    template: news-item
     layout: list
     help: red dots mean artwork was not published yet
     image:

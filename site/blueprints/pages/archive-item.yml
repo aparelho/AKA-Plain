@@ -26,5 +26,6 @@ columns:
             size: medium
           tags:
             type: tags
-          archive insertion date:
+          archiveinsertiondate:
             type: date
+            time: true

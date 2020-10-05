@@ -1,0 +1,41 @@
+title: Daily Item
+
+columns:
+  left:
+    width: 1/3
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          cover: true
+  right:
+    width: 2/3
+    sections:
+      content: 
+        type: fields
+        fields:
+          relates:
+            type: pages
+            width: 1/2
+            help: select published pages that relate to this event (this will create a link for the user)
+          date:
+            type: date
+            time: true
+            width: 1/2
+          intro text:
+            type: textarea
+            size: medium
+            help: the first lines of this text will always be visible in the home page
+          continued text:
+            type: textarea
+            size: medium
+            help: this secondary text will be displayed only after the frist images 
+          tags:
+            type: tags
+            width: 1/2
+          author:
+            type: text
+            width: 1/2
+            help: completely optional
+          

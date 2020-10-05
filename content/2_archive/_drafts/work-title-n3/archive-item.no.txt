@@ -1,0 +1,25 @@
+Title: Work Title N3
+
+----
+
+Author: Author Name
+
+----
+
+Author-id: 
+
+----
+
+Text: Norwegian text
+
+----
+
+Tags: visual, reference
+
+----
+
+Archiveinsertiondate: 2020-10-16 02:20
+
+----
+
+Archive-insertion-date: 2020-10-17
