@@ -19,5 +19,5 @@
 		<a href="">Apply</a>
 	</nav>
 
-	<h1 class="shadow"><?= $page->title() ?></h1>
+	<h1 class="shadow red"><?= $page->title() ?></h1>
 </header>

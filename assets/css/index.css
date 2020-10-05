@@ -1,30 +1,26 @@
-
 @font-face {
-    font-family: 'Scto-Light';
-    src: url('../fonts/Scto-Grotesk-A-Light.woff') format('woff'),
-        url('../fonts/Scto-Grotesk-A-Light.eot') format('eot');
+  font-family: "Scto-Light";
+  src: url("../fonts/Scto-Grotesk-A-Light.woff") format("woff"), url("../fonts/Scto-Grotesk-A-Light.eot") format("eot");
 }
-
 @font-face {
-    font-family: 'Scto-Reg';
-    src: url('../fonts/Scto-Grotesk-A-Reg.woff') format('woff2'),
-        url('../fonts/Scto-Grotesk-A-Reg.eot') format('eot');
+  font-family: "Scto-Reg";
+  src: url("../fonts/Scto-Grotesk-A-Reg.woff") format("woff2"), url("../fonts/Scto-Grotesk-A-Reg.eot") format("eot");
 }
-
 @font-face {
-    font-family: 'Scto-Med';
-    src: url('../fonts/Scto-Grotesk-A-Med.woff') format('woff2'),
-        url('../fonts/Scto-Grotesk-A-Med.eot') format('eot');
+  font-family: "Scto-Med";
+  src: url("../fonts/Scto-Grotesk-A-Med.woff") format("woff2"), url("../fonts/Scto-Grotesk-A-Med.eot") format("eot");
 }
-
-
 * {
-	font-family: 'Scto-Reg', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
-	font-weight: normal;
-	color: #2e2b2c;
+  font-family: "Scto-Reg", -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+  font-weight: normal;
+  color: #2e2b2c;
 }
-
 
 .shadow {
-	box-shadow: 1px 7px 11px #0000000f;
+  box-shadow: 1px 7px 11px #0000000f;
 }
+.shadow.red {
+  box-shadow: 1px 7px 11px red;
+}
+
+/*# sourceMappingURL=index.css.map */

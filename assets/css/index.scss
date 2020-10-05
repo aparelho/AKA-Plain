@@ -28,7 +28,8 @@
 .shadow {
 	box-shadow: 1px 7px 11px #0000000f;
 
-	.dark {
-		box-shadow: box-shadow: 1px 7px 11px red;
+	&.red {
+		box-shadow: 1px 7px 11px red;
 	}
 }
+
