@@ -16,8 +16,7 @@
 		<?php foreach ($site->children()->listed()->flip()->limit(2) as $item): ?>
 		 <?= $item->title()->link() ?>
 	<?php endforeach ?>
-		<a href="">Apply</a>
+		<a href="#apply">Apply</a>
 	</nav>
 
-	<h1 class="shadow red"><?= $page->title() ?></h1>
 </header>

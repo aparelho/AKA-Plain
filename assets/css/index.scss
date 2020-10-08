@@ -17,13 +17,95 @@
         url('../fonts/Scto-Grotesk-A-Med.eot') format('eot');
 }
 
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
 
 * {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
 	font-family: 'Scto-Reg', -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	font-weight: normal;
 	color: #2e2b2c;
+	letter-spacing: -0.05em;
 }
 
+ul {
+	list-style: none;
+	 margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+
+#intro {
+	display: flex;
+	min-height: 60vh;
+	background: red;
+}
+
+.news {
+	display: flex;
+	flex-direction: column;
+	min-height: 40vh;
+
+	.news-wrapper {
+		padding:15px;
+		height: 10vh;
+    	overflow: hidden;
+       	transition: all .5s ease;
+		
+		.news-item {
+			display: grid;
+			grid-template-columns: 1fr 4fr 15fr;
+
+			.content {
+				font-size: 10vw;
+			}
+
+			date {
+				font-variant-numeric: tabular-nums;
+			    font-size: 12px;
+			    letter-spacing: 0.01em;
+			}
+
+			.tags {
+				ul {
+					li {
+						a {
+							background: red;
+							border-radius: 20px;
+							padding:10px;
+							font-size: 11px;
+							color: #333;
+
+							&.announcement {
+								background: #9ED2B3;
+							}
+
+							&.workshops{
+								background: #C9B198;
+							}
+
+							&.students {
+								background: #BFBEE4;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 .shadow {
 	box-shadow: 1px 7px 11px #0000000f;
@@ -33,3 +115,8 @@
 	}
 }
 
+.shadow-inset {
+	box-shadow: inset 1px -8px 11px 5px #0000000f;
+}
+
+.transform-3d { @include transform(translate3d(0,0,0)); }

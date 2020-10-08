@@ -23,11 +23,11 @@ columns:
             type: date
             time: true
             width: 1/2
-          intro text:
+          intro:
             type: textarea
             size: medium
             help: the first lines of this text will always be visible in the home page
-          continued text:
+          continued:
             type: textarea
             size: medium
             help: this secondary text will be displayed only after the frist images 

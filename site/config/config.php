@@ -12,5 +12,6 @@ return [
     'languages.detect' => true,
     'date.handler'  => 'strftime',
     'smartypants' => true,
+    'debug' => true,
 ];
 

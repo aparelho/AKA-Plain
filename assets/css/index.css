@@ -11,9 +11,67 @@
   src: url("../fonts/Scto-Grotesk-A-Med.woff") format("woff2"), url("../fonts/Scto-Grotesk-A-Med.eot") format("eot");
 }
 * {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
   font-family: "Scto-Reg", -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
   font-weight: normal;
   color: #2e2b2c;
+  letter-spacing: -0.05em;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+#intro {
+  display: flex;
+  min-height: 60vh;
+  background: red;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+}
+.news .news-wrapper {
+  padding: 15px;
+  height: 10vh;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.news .news-wrapper .news-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr 15fr;
+}
+.news .news-wrapper .news-item .content {
+  font-size: 10vw;
+}
+.news .news-wrapper .news-item .tags ul li a {
+  background: red;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 11px;
+  color: #333;
+}
+.news .news-wrapper .news-item .tags ul li a.announcement {
+  background: #9ED2B3;
+}
+.news .news-wrapper .news-item .tags ul li a.workshops {
+  background: #C9B198;
+}
+.news .news-wrapper .news-item .tags ul li a.students {
+  background: #BFBEE4;
 }
 
 .shadow {
@@ -21,6 +79,10 @@
 }
 .shadow.red {
   box-shadow: 1px 7px 11px red;
+}
+
+.shadow-inset {
+  box-shadow: inset 1px -8px 11px 5px #0000000f;
 }
 
 /*# sourceMappingURL=index.css.map */
