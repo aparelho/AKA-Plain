@@ -1,0 +1,20 @@
+{
+  "name": "AKA-Plain",
+  "version": "1.0.0",
+  "description": "Built on kirby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparelho/AKA-Plain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparelho/AKA-Plain/issues"
+  },
+  "homepage": "https://github.com/aparelho/AKA-Plain#readme"
+}

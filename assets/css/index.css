@@ -57,6 +57,11 @@ ul {
 .news .news-wrapper .news-item .content {
   font-size: 10vw;
 }
+.news .news-wrapper .news-item date {
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
 .news .news-wrapper .news-item .tags ul li a {
   background: red;
   border-radius: 20px;
@@ -83,6 +88,12 @@ ul {
 
 .shadow-inset {
   box-shadow: inset 1px -8px 11px 5px #0000000f;
+}
+
+.transform-3d {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /*# sourceMappingURL=index.css.map */
