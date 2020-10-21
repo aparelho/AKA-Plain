@@ -1,5 +1,7 @@
 title: Archive
 
+icon: 🏛️
+
 sections:
   archive:
     extends: sections/item

@@ -22,9 +22,20 @@
 			</div>
 			<div class="content">
 				<div class="excerpt">
+						<div class="previous-images">
+
+					 <?php foreach ($dailyitem->images()->limit(3) as $imagex): ?>
+						     <img srcset="
+						      <?= $imagex->srcset([50, 120, 200]) ?>">
+					  <?php endforeach ?>
+				</div>
 					<?= $dailyitem->intro() ?>
 				</div>
-				<div class="first-images">
+				<div class="news-images">
+					 <?php foreach ($dailyitem->images()->limit(4)  as $image): ?>
+						      <img srcset="
+						      <?= $image->srcset([300, 800, 1024]) ?>">
+					  <?php endforeach ?>
 				</div>
 				<div class="text">
 					<?= $dailyitem->continued() ?>

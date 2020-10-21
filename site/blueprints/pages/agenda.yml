@@ -1,0 +1,14 @@
+title: Agenda
+
+icon: 📅
+
+sections:
+  archive:
+    extends: sections/item
+    type: pages
+    template: agenda-item
+    layout: list
+    help: red dots mean artwork was not published yet
+    image:
+      cover: true
+      ratio: 2/1

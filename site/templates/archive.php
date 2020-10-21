@@ -1,7 +1,9 @@
 <?php snippet ('header') ?>
 
 <main>
-<?= $page->text() ?>
+
+Our archive will be up and running soon.
+
 </main>
 
 

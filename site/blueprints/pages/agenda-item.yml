@@ -1,0 +1,49 @@
+title: Agenda Item
+
+columns:
+  left:
+    width: 1/2
+    sections:
+      agendatext:
+        type: fields
+        fields:
+          content:
+            type: textarea
+            size: medium
+      images:
+        type: files
+        layout: cards
+        image:
+          cover: true
+
+  right:
+    width: 1/2
+    sections:
+      details: 
+        type: fields
+        fields:
+          startdate:
+            label: Start Date
+            type: date
+            width: 1/2
+          enddate:
+            label: End Date
+            type: date
+            width: 1/2
+            help: leave blank for single day events
+          starttime:
+            label: From
+            type: time
+            width: 1/2
+            default: 17:00
+          endtime:
+            label: To
+            type: time
+            width: 1/2  
+            help: leave blank if event is shorter than 1h30
+          tags:
+            type: tags
+            width: 1/2
+          relates:
+            type: pages
+            help: select published pages that relate to this event (this will create a link for the user)

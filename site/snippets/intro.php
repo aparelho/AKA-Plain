@@ -2,7 +2,7 @@
 	
 	<div class="intro-wrapper">
 
-		<?= $page->text() ?>
+		<?= $page->text()->kirbytext() ?>
 		
 	</div>
 </section>
