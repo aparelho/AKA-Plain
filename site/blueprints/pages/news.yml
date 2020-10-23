@@ -6,9 +6,9 @@ sections:
   archive:
     extends: sections/item
     type: pages
+    sortBy: date desc
     template: news-item
     layout: list
-    help: red dots mean artwork was not published yet
+    help: red dots mean news have not been published and will not be visible to the audience
     image:
       cover: true
-      ratio: 2/1

@@ -18,13 +18,25 @@
 <body>
 	<div class="global-wrapper">
 		<header>
-			<a href="<?= $site->url() ?>"><?= $site->title() ?></a>
+			<a href="<?= $site->url() ?>">
+				<img class="logo" alt="Agder Kunstakademi Logo" src="<?php echo url('assets/images/aka-logo-core.svg') ?>">
+			</a>
 
 			<nav class="shortcuts">
 				<?php foreach ($site->children()->listed()->flip()->limit(2) as $item): ?>
 				 <?= $item->title()->link() ?>
 			<?php endforeach ?>
 				<a href="#apply">Apply</a>
-			</nav>
 
+				<div class="menu-caller">
+				<button>
+					<div class="round first"></div>
+					<div class="round second"></div>
+					<div class="round third"></div>
+				</button>
+				<div class="caller-helper">more</div>
+			</div>
+			</nav>
 		</header>
+
+<?php snippet ('full-menu') ?>

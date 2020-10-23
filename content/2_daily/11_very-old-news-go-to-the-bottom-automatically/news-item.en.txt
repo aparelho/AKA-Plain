@@ -1,0 +1,25 @@
+Title: Very Old News go to the bottom, automatically.
+
+----
+
+Relates: 
+
+----
+
+Date: 2018-09-03 15:35
+
+----
+
+Intro: This is old news, check the date above, it will probably be at the bottom of the news feed.
+
+----
+
+Continued: 
+
+----
+
+Tags: announcement
+
+----
+
+Author: 

@@ -1,0 +1,25 @@
+Title: You can fill the news in Norwegian, and it completes in english.
+
+----
+
+Relates: 
+
+----
+
+Date: 2020-10-05 15:45
+
+----
+
+Intro: This is a short title of norwegian-first event.
+
+----
+
+Continued: This is for text after the images.
+
+----
+
+Tags: announcement
+
+----
+
+Author: 

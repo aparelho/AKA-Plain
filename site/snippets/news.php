@@ -1,6 +1,17 @@
 
 
 <section class="news">
+	<div class="news-controls">
+		<div class="title">
+			Daily
+		</div>
+		<div class="filtering">
+			Filter
+		</div>
+		<div class="expand">
+			<button>All</button>
+		</div>
+	</div>
 
 <?php foreach ($pages->find('daily')->children()->listed()->sortBy('date', 'desc') as $dailyitem): ?>
 	<div class="news-wrapper shadow-inset">
