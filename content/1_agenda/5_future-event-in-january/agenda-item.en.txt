@@ -1,4 +1,4 @@
-Title: Workshop Two
+Title: Future event in January
 
 ----
 
@@ -6,11 +6,7 @@ Content:
 
 ----
 
-Relates: 
-
-----
-
-Startdate: 
+Startdate: 2021-01-05
 
 ----
 
@@ -27,3 +23,7 @@ Endtime:
 ----
 
 Tags: 
+
+----
+
+Relates: 

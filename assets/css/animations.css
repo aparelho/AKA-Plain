@@ -1,0 +1,12 @@
+
+@keyframes marqueeLoop1 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translateX(-2450px);
+            transform: translateX(-2450px);
+  }
+}

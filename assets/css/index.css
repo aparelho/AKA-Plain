@@ -120,6 +120,8 @@ header .shortcuts .menu-caller button {
   box-sizing: border-box;
   margin-right: 10px;
   margin-top: 5px;
+  animation: opacity-80 2.4s ease infinite;
+  animation-delay: 1.68s;
 }
 @media (max-width: 900px) {
   header .shortcuts .menu-caller button {
@@ -132,15 +134,19 @@ header .shortcuts .menu-caller button .round {
   height: 10px;
   border-radius: 10px;
   background: grey;
+  animation: typing 2.4s ease infinite;
 }
 header .shortcuts .menu-caller button .round.first {
   background: #8C633A;
+  animation-delay: 0.5s;
 }
 header .shortcuts .menu-caller button .round.second {
   background: #149447;
+  animation-delay: 0.7s;
 }
 header .shortcuts .menu-caller button .round.third {
   background: #605FA5;
+  animation-delay: 0.9s;
 }
 header .shortcuts .menu-caller .caller-helper {
   color: #2e2b2c;
@@ -242,6 +248,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   }
 }
 
+/* 	NEWSFEED WITHIN HOME PAGE 	*/
 .news {
   display: flex;
   flex-direction: column;
@@ -429,6 +436,73 @@ header .shortcuts .menu-caller .caller-helper:hover {
   background: #BFBEE4;
 }
 
+/* 	
+
+
+
+		MENU
+
+
+							 	*/
+.menu .menu-header {
+  font-size: 2.2vw;
+  margin: 5px 15px;
+  letter-spacing: -0.06em;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+/* 	MINI EVENT CALENDAR WITHIN HOME PAGE 	*/
+.pre-agenda.open {
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+}
+.pre-agenda .agenda-header {
+  font-size: 2.2vw;
+  letter-spacing: -0.06em;
+  border-bottom: 1px solid;
+  padding: 5px 15px;
+}
+.pre-agenda .agenda-container {
+  overflow-y: auto;
+}
+.pre-agenda .agenda-container .event-wrapper {
+  height: auto;
+  min-height: 20vh;
+  overflow: hidden;
+  border-bottom: 0.5px solid;
+  font-size: 3.5vw;
+  letter-spacing: -0.06em;
+  padding: 15px;
+}
+.pre-agenda .agenda-container .event-wrapper .date {
+  font-variant-numeric: tabular-nums;
+}
+.pre-agenda .agenda-container footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  text-align: center;
+  width: 33vw;
+  background: red;
+  height: 6vh;
+  line-height: 4vh;
+  background: linear-gradient(0deg, white 0%, #e8e7e3 43%, rgba(255, 255, 255, 0) 100%);
+  transition: all 0.5s ease;
+}
+.pre-agenda .agenda-container footer button {
+  background: #c9b198;
+  padding: 4px 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 1.7;
+  padding-top: 6px;
+  margin-top: 1.8vh;
+  letter-spacing: 0.01em;
+}
+
 /* 
 
 
@@ -443,6 +517,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   top: 0px;
   right: 0px;
   bottom: 0px;
+  overflow-y: auto;
 }
 
 .shadow {
@@ -464,6 +539,46 @@ header .shortcuts .menu-caller .caller-helper:hover {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+}
+
+/* 
+
+
+
+		CSS ANIMATIONS
+
+
+
+							*/
+@keyframes typing {
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  70% {
+    transform: none;
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(4px) scaleY(0.8);
+    opacity: 0.6;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes opacity-80 {
+  0% {
+    border: 1px solid black;
+  }
+  80% {
+    border: 1px solid #eee;
+    background: #eee;
+  }
+  100% {
+    border: 1px solid black;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

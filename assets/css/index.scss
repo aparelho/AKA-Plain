@@ -34,7 +34,7 @@ $aka-green: #149447;
 $aka-brown: #8C633A;
 $aka-light-green: #9ED2B3;
 $aka-light-blue: #BFBEE4;
-$aka-light-brown: #8C633A;
+$aka-light-brown: #c9b198;
 
 
 /* DEFAULTS */
@@ -151,6 +151,9 @@ header {
 			    box-sizing: border-box;
 			    margin-right: 10px;
 			    margin-top: 5px;
+			    animation: opacity-80 2.4s ease infinite;
+			    animation-delay: 1.68s;
+
 
 			    @media (max-width: 900px) {
 			    		margin-right: 0px;
@@ -162,17 +165,21 @@ header {
 			    	height: 10px;
 			    	border-radius: 10px;
 			    	background: grey;
+			    	animation: typing 2.4s ease infinite;
 
 			    	&.first {
 			    		background: $aka-brown;
+			    		animation-delay: .5s;
 			    	}
 
 			    	&.second {
 			    		background: $aka-green;
+			    		animation-delay: .7s;
 			    	}
 
 			    	&.third {
 			    		background: $aka-blue;
+			    		animation-delay: .9s;
 			    	}
 			    }
 
@@ -283,6 +290,8 @@ header {
 		}
 	}
 }
+
+/* 	NEWSFEED WITHIN HOME PAGE 	*/
 
 .news {
 	display: flex;
@@ -490,6 +499,91 @@ header {
 }
 
 
+/* 	
+
+
+
+		MENU
+
+
+							 	*/
+.menu {
+
+	.menu-header {
+	    font-size: 2.2vw;
+	    margin: 5px 15px;
+	    letter-spacing: -0.06em;
+	    border-bottom: 1px solid;
+	    display: flex;
+	    justify-content: space-between;
+	    padding-bottom: 5px;
+	}
+}
+
+
+/* 	MINI EVENT CALENDAR WITHIN HOME PAGE 	*/
+
+
+.pre-agenda {
+
+	&.open {
+		box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	.agenda-header {
+	    font-size: 2.2vw;
+	    letter-spacing: -0.06em;
+	    border-bottom: 1px solid;
+	    padding: 5px 15px;
+	  }
+
+	.agenda-container {
+    overflow-y: auto;
+
+
+		.event-wrapper {
+			height: auto;
+    		min-height: 20vh;
+			overflow: hidden;
+			border-bottom: .5px solid;
+		    font-size: 3.5vw;
+		    letter-spacing: -0.06em;
+		    padding: 15px;
+
+		    .date {
+		    	font-variant-numeric: tabular-nums;
+		    }
+
+		}
+
+		footer {
+		    position: fixed;
+		    bottom: 0px;
+		    right: 0px;
+		    text-align: center;
+		    width: 33vw;
+		    background: red;
+		    height: 6vh;
+		    line-height: 4vh;
+		    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,231,227,1) 43%, rgba(255,255,255,0) 100%);
+		    transition: all .5s ease;
+
+		    button {
+		    	background: $aka-light-brown;
+		    	padding: 4px 30px;
+			    border-radius: 20px;
+			    text-transform: uppercase;
+			    font-size: 10px;
+			    line-height: 1.7;
+			    padding-top: 6px;
+			    margin-top: 1.8vh;
+			    letter-spacing: .01em;
+
+		    }
+		}
+	}
+}
+
 /* 
 
 
@@ -505,6 +599,7 @@ header {
     top: 0px;
     right: 0px;
     bottom: 0px;
+    overflow-y: auto;
 }
 
 
@@ -525,3 +620,54 @@ header {
 }
 
 .transform-3d { @include transform(translate3d(0,0,0)); }
+
+
+
+/* 
+
+
+
+		CSS ANIMATIONS
+
+
+
+							*/
+
+
+@keyframes typing {
+  0% {
+            transform: none;
+            opacity: 1;
+  }
+
+   70% {
+            transform: none;
+            opacity: 1;
+  }
+
+
+  80% {
+            transform: translateY(4px) scaleY(.8);
+            opacity: .6;
+  }
+
+  100% {
+            transform: none;
+            opacity: 1;
+  }
+}
+
+@keyframes opacity-80 {
+  0% {
+            border: 1px solid black;
+  }
+
+  80% {
+             border: 1px solid #eee;
+             background: #eee;
+  }
+
+  100% {
+             border: 1px solid black;
+  }
+}
