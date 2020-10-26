@@ -116,7 +116,7 @@ header .shortcuts .menu-caller button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 9px;
+  padding: 11px;
   box-sizing: border-box;
   margin-right: 10px;
   margin-top: 5px;
@@ -130,8 +130,8 @@ header .shortcuts .menu-caller button {
   }
 }
 header .shortcuts .menu-caller button .round {
-  width: 10px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   border-radius: 10px;
   background: grey;
   animation: typing 2.4s ease infinite;
