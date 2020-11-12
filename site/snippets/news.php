@@ -17,7 +17,7 @@
 	<div class="news-wrapper shadow-inset">
 		<div class="news-item transform-3d">
 			<div class="date">
-				<?= $dailyitem->date()->toDate('%d.%m') ?></span>
+				<?= $dailyitem->date()->toDate('%d.%m') ?>
 			</div>
 			<div class="tags">
 				<?php
@@ -36,16 +36,20 @@
 						<div class="previous-images">
 
 					 <?php foreach ($dailyitem->images()->limit(3) as $imagex): ?>
-						     <img srcset="
-						      <?= $imagex->srcset([50, 120, 200]) ?>">
+						     <img data-srcset="
+						      <?= $imagex->srcset([50, 120, 200]) ?>" class="lazyload">
 					  <?php endforeach ?>
 				</div>
 					<?= $dailyitem->intro() ?>
 				</div>
 				<div class="news-images">
 					 <?php foreach ($dailyitem->images()->limit(4)  as $image): ?>
-						      <img srcset="
-						      <?= $image->srcset([300, 800, 1024]) ?>">
+						      <img 
+						      data-srcset="
+						      <?= $image->srcset([300, 800, 1024]) ?>" 
+						      class="content-image lazyload" 
+						      data-sizes="auto"
+						      data-expand="-50">
 					  <?php endforeach ?>
 				</div>
 				<div class="text">

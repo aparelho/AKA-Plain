@@ -1,14 +1,13 @@
 title: Agenda
-
-icon: 📅
-
-sections:
-  archive:
-    extends: sections/item
-    type: pages
-    template: agenda-item
-    layout: list
-    help: red dots mean artwork was not published yet
-    image:
-      cover: true
-      ratio: 2/1
+preset: pages
+options:
+  status: false
+  delete: false
+drafts:
+  headline: Drafts
+unlisted:
+  headline: Upcoming Events
+  help: When Publishing a future event use 'Unlisted' as way to separate it from current and past
+listed:
+  headline: Current and Past Events
+  help: Past and current events are organized automatically by date, only future evetns should be separated until they become current.

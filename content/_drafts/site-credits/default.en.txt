@@ -1,0 +1,5 @@
+Title: Site Credits
+
+----
+
+Text: This is the english credit.

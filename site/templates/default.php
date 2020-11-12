@@ -1,7 +1,7 @@
 <?php snippet ('header') ?>
 
 <main>
-<?= $page->text() ?>
+<?= $page->text()->kirbytext() ?>
 </main>
 
 

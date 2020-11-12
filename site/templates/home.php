@@ -3,7 +3,6 @@
 <main>
 <?php snippet ('intro') ?>
 
-
 <?php snippet ('news') ?>
 </main>
 

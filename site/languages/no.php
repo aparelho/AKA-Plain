@@ -2,7 +2,7 @@
 
 return [
     'code' => 'no',
-    'default' => false,
+    'default' => true,
     'direction' => 'ltr',
     'locale' => [
         'LC_ALL' => 'no_NO'

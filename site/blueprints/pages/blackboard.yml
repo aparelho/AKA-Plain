@@ -1,0 +1,16 @@
+title: Blackboard
+options:
+  status: false
+  delete: false
+
+icon: 👨‍🎓
+
+sections:
+  blackboards:
+    type: pages
+    template: blackboard-item
+    layout: cards
+    help: Only the first currrent active (green) will be visible, name the blackboards per theme or per season
+    label: Blackboards
+    image:
+      cover: true

@@ -2,11 +2,14 @@ Title: Very Old News go to the bottom, automatically.
 
 ----
 
-Relates: 
+Relates:
+
+- agenda/workshop
+- agenda/workshop-two
 
 ----
 
-Date: 2018-09-03 15:35
+Date: 2019-06-04 21:35
 
 ----
 

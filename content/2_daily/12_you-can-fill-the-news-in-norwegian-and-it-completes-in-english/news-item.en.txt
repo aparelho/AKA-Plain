@@ -6,11 +6,11 @@ Relates:
 
 ----
 
-Date: 
+Date: 2018-12-01 22:20
 
 ----
 
-Intro: 
+Intro: Something happened on Classroom 2 yesterday.
 
 ----
 
@@ -18,4 +18,8 @@ Continued:
 
 ----
 
-Tags: 
+Tags: announcemnts, students
+
+----
+
+Author: 

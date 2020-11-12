@@ -2,4 +2,38 @@ Title: About
 
 ----
 
-Text: 
+Text:
+
+**What is Agder Kunstakademi** 
+
+Agder Kunstakademi is an autonomous art school in Agder Prison, dep. Froland, based on experimentation and independent thinking. The academy is founded by artists, for the inmates. The aim is to provide its students with artistic insight, experiences and tools for personal development and participation in the public sphere. Agder Kunstakademi offers a versatile art education consisting of shorter and longer courses. Its programme matches the artistic standard of Norway's most prominent art schools, set by the professional artists invited to teach and lecture within a wide range of fields, based on their own practices.
+
+----
+
+Practical: 
+
+----
+
+Bg:
+
+**Background** 
+
+Agder Kunstakademi is a relational art project, consisting of an independent, versatile, high-quality art education over the course of three years; from spring 2021 to the end of spring 2023. This art project is initiated by the curators Kristine Jærn Pilgaard and Thora Dolven Balke, and its pedagogical programme is developed by The Academy Council (Akademirådet), consisting of artists Hege Nyborg, Dag Erik Elgin and Sverre Gullesen, in addition to the two curators. 
+
+Agder Kunstakademi is produced by KORO – Art in Public Space and developed in close dialogue with Agder Prison and Sam Eyde High School, who are otherwise in charge of all educational programs in the prison. At the end of the project's three year period, the aim is for Agder Prison and Sam Eyde High School to continue the education model as part of their programme.
+
+----
+
+Sectext:
+
+**More Information** 
+
+Art as a field of study is limitless, without a defined hierarchy between academic and practical knowledge. An art education therefore encourages intellectual work and craftsmanship side by side, crossing many other subjects such as architecture and design, music, philosophy, sociology, science and literature. Agder Kunstakademi requires no specific background knowledge, previous experience or fundamental education from its students. All personal histories and interests are valuable as the starting point for an art practice. 
+
+Agder Kunstakademi is based on collaboration between artists and students. Our educational programme will reflect the individual interests and development of our students, thus allowing for personal growth. Invited guest teachers will use examples from their own and other artists' practices to introduce subjects, followed by manual, collaborative work, technical training and experimentation. This art education should provide the students with relevant experience for a variety of work situations and roles in society. 
+
+Agder Kunstakademi offers a programme of practical and theoretical knowledge within a range of media and techniques. The art academy invites artists who are specialised within everything from painting and drawing to video, sculpture, sound and text. These techniques will not be taught as a curriculum, but will be tied to artistic research and practice. The art academy collaborates with Sam Eyde High School and the library within the prison, and has access to all workshops. Students plan, execute and install artworks together with the visiting guest teachers. These works will become a permanent collection in the prison. Throughout the semesters, permanent teaching staff closely follows the students’ development, and offer foundational courses, reading groups and group critiques.
+
+----
+
+Moreinfo: 
