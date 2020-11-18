@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-    'use strict';
   
   $(".news-wrapper").click((e) => {
     const parent = $(e.target).parents(".news-wrapper");
     $(".news-wrapper").not(parent).removeClass("open");
     parent.toggleClass("open");
+    $(".global-wrapper").toggleClass("news-open");
   });
 
   $(".menu-caller").click(() => {

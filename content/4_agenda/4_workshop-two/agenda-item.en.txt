@@ -1,12 +1,12 @@
-Title: Koro Visit and Talk with the students.
+Title: Workshop Two
 
 ----
 
-Content: 
+Content: Text
 
 ----
 
-Startdate: 2010-10-23
+Startdate: 2020-10-12
 
 ----
 
@@ -22,7 +22,7 @@ Endtime:
 
 ----
 
-Tags: 
+Tags: Autumn 2020
 
 ----
 

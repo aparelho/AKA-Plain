@@ -1,12 +1,12 @@
-Title: Workshop Two
+Title: Upcoming Event
 
 ----
 
-Content: Text
+Content: 
 
 ----
 
-Startdate: 2020-10-12
+Startdate: 2021-01-02
 
 ----
 
@@ -22,7 +22,7 @@ Endtime:
 
 ----
 
-Tags: 
+Tags: Spring 2021
 
 ----
 

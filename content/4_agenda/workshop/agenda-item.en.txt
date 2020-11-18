@@ -6,26 +6,6 @@ Content: The platform / school is a collaboration of the art lectorates or profe
 
 ----
 
-Startdate: 2020-10-18
-
-----
-
-Enddate: 
-
-----
-
-Starttime: 16:00
-
-----
-
-Endtime: 
-
-----
-
-Tags: 
-
-----
-
 Relates:
 
 - archive/artowrk-n-164-2021
@@ -41,3 +21,23 @@ Intro:
 ----
 
 Continued: 
+
+----
+
+Tags: Spring 2021
+
+----
+
+Startdate: 2020-10-18
+
+----
+
+Enddate: 
+
+----
+
+Starttime: 16:00
+
+----
+
+Endtime: 

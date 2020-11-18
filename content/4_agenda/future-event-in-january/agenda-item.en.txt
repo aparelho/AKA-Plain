@@ -1,4 +1,4 @@
-Title: Upcoming Event
+Title: Future event in January
 
 ----
 
@@ -6,7 +6,7 @@ Content:
 
 ----
 
-Startdate: 2021-01-02
+Startdate: 2021-01-05
 
 ----
 
@@ -22,7 +22,7 @@ Endtime:
 
 ----
 
-Tags: 
+Tags: Spring 2021
 
 ----
 

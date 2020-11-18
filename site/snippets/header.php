@@ -25,13 +25,14 @@
 	<div class="global-wrapper">
 		<header>
 			<a href="<?= $site->url() ?>">
-				<img class="logo" alt="Agder Kunstakademi Logo" src="<?php echo url('assets/images/aka-logo-core.svg') ?>">
+				<img class="logo" alt="Agder Kunstakademi Logo" src="<?php echo url('assets/images/aka-logo-core.png') ?>">
 			</a>
 
-			<nav class="shortcuts">
-				<?php foreach ($site->children()->listed()->flip()->limit(2) as $item): ?>
-				 <a href="#" class="<?= $item->title() ?>"> <?= $item->title() ?> </a>
+			<nav class="shortcuts lg-txt">
+				<?php foreach ($site->children()->listed()->limit(1) as $item): ?>
+				 <a href="<?= $item->url() ?>" class="<?= $item->title() ?>"> <?= $item->title() ?> </a>
 			<?php endforeach ?>
+				<a class="Blackboard">Blackboard</a>
 				<a class="application-caller">Apply</a>
 
 				<div class="menu-caller">

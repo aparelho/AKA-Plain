@@ -2,7 +2,9 @@ Title: 6
 
 ----
 
-Relates: 
+Relates:
+
+- archive
 
 ----
 
@@ -18,7 +20,7 @@ Continued:
 
 ----
 
-Tags: workshops, announcement
+Tags: announcement
 
 ----
 
