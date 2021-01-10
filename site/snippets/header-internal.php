@@ -28,7 +28,7 @@
 				<img class="logo" alt="Agder Kunstakademi Logo" src="<?php echo url('assets/images/aka-logo-core.png') ?>">
 			</a>
 
-			<?php snippet ('shortcuts') ?>
+			<?php snippet ('shortcuts-internal') ?>
 			
 		</header>
 

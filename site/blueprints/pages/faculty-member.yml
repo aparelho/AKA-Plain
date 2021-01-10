@@ -1,0 +1,21 @@
+title: Member 
+
+columns:
+  left:
+    width: 1/3
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          cover: true
+  right:
+    width: 2/3
+    sections:
+      content: 
+        type: fields
+        fields:
+          description:
+            type: textarea
+            size: medium
+            help: This is where you explain the Blackboard theme, or use the text to overlay the images

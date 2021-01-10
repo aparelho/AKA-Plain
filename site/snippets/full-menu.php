@@ -2,8 +2,7 @@
 	
 
 	<div class="menu-header">
-		<a class="header-link application-caller">Apply</a>
-		<a href=" <?= $pages->find('about')->url() ?>" class="header-link">Contact</a>
+		<a class="header-link application-caller">Admissions</a>
 		<a class="header-link close-menu">Close</a>
 
 	</div>

@@ -13,8 +13,9 @@
 /* MIXINS */
 /* VARIABLES */
 .lg-txt {
-  font-size: 2.7vw;
-  letter-spacing: -0.05em;
+  font-size: calc(2.1vw + 5px);
+  letter-spacing: -0.06em;
+  -webkit-font-smoothing: antialiased;
 }
 @media (max-width: 900px) {
   .lg-txt {
@@ -23,8 +24,9 @@
 }
 
 .md-txt {
-  font-size: 1.7vw;
+  font-size: calc(1.7vw + 5px);
   letter-spacing: -0.04em;
+  -webkit-font-smoothing: initial;
 }
 @media (max-width: 900px) {
   .md-txt {
@@ -130,9 +132,21 @@ header .shortcuts {
   justify-content: space-between;
   margin-right: 8px;
   -webkit-font-smoothing: antialiased;
+  font-size: calc(2.7vw + 5px);
+  letter-spacing: -0.065em;
+}
+header .shortcuts.internal-shortcut {
+  width: 100vw;
+  right: 0px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
 }
 header .shortcuts a {
   color: #2e2b2c;
+}
+header .shortcuts a.current {
+  color: #8C633A;
 }
 @media (max-width: 900px) {
   header .shortcuts a {
@@ -147,6 +161,11 @@ header .shortcuts .menu-caller {
   align-items: center;
   margin-left: 1vw;
   cursor: pointer;
+}
+header .shortcuts .menu-caller.internal {
+  position: fixed;
+  top: 0px;
+  right: 13px;
 }
 @media (max-width: 900px) {
   header .shortcuts .menu-caller {
@@ -214,6 +233,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   transform: translateX(60vw);
   transition: all 0.75s ease;
   box-shadow: -8px 1px 16px 1px rgba(0, 0, 0, 0);
+  text-transform: lowercase;
 }
 @media (max-width: 900px) {
   .menu {
@@ -368,8 +388,10 @@ header .shortcuts .menu-caller .caller-helper:hover {
   }
 }
 #intro .intro-wrapper p {
-  width: 50%;
+  width: 80%;
   line-height: 1.1;
+  margin-top: 80px;
+  margin-left: 5px;
 }
 @media (max-width: 900px) {
   #intro .intro-wrapper p {
@@ -398,13 +420,14 @@ header .shortcuts .menu-caller .caller-helper:hover {
 .news .news-controls {
   width: 100%;
   height: 4vh;
-  background: #efefef;
+  background: #f7f7f7;
   display: flex;
   justify-content: space-between;
   padding: 1.4vh;
   text-transform: uppercase;
   font-size: 11px;
   letter-spacing: 0.1em;
+  color: #9ed2b3;
   box-sizing: border-box;
 }
 @media (max-width: 900px) {
@@ -414,7 +437,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
 }
 .news .news-wrapper {
   padding: 15px;
-  height: 10vh;
+  max-height: calc(5vw + 8px);
   overflow: hidden;
   transition: all 0.5s ease;
   cursor: pointer;
@@ -427,7 +450,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   }
 }
 .news .news-wrapper.open {
-  height: 100vh;
+  max-height: 150vmin;
   border-top-right-radius: 72px;
   border-top-left-radius: 72px;
   padding-top: 2vh;
@@ -445,7 +468,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
 }
 @media (max-width: 900px) {
   .news .news-wrapper.open .date, .news .news-wrapper.open .tags, .news .news-wrapper.open .content {
-    margin-top: 3vh;
+    margin-top: 1.8vw;
   }
 }
 @media (max-width: 900px) {
@@ -476,7 +499,8 @@ header .shortcuts .menu-caller .caller-helper:hover {
 }
 .news .news-wrapper .news-item .content .excerpt {
   width: 95%;
-  -webkit-font-smoothing: initial;
+  line-height: 1.4;
+  margin-top: -5px;
 }
 .news .news-wrapper .news-item .content .excerpt .previous-images {
   max-width: 0px;
@@ -511,13 +535,18 @@ header .shortcuts .menu-caller .caller-helper:hover {
 .news .news-wrapper .news-item .content .excerpt:hover .previous-images img {
   border: 1px solid transparent;
 }
+.news .news-wrapper .news-item .content .text {
+  max-width: 70%;
+  line-height: 1.33;
+  margin-bottom: 2vw;
+}
 .news .news-wrapper .news-item .content .news-images {
   max-width: 90%;
   overflow: hidden;
-  margin: 10vh 0px;
+  margin: 4vh 0px;
 }
 .news .news-wrapper .news-item .content .news-images img {
-  max-height: 20vh;
+  max-width: 40%;
   margin-right: 10px;
   float: left;
 }
@@ -849,6 +878,93 @@ header .shortcuts .menu-caller .caller-helper:hover {
   filter: blur(0px);
 }
 
+/* 
+
+
+
+		FACULTY START
+
+
+
+							*/
+.faculty-main {
+  margin-top: 30vh;
+  margin-left: 5px;
+}
+.faculty-main .title {
+  background: #9ED2B3;
+  font-size: 10px;
+  border-radius: 20px;
+  padding: 3px 8px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  padding-top: 5px;
+  display: inline-block;
+  margin-bottom: 3px;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 8px;
+  margin-bottom: 14px;
+}
+.faculty-main .title.collaborator-title {
+  background: #c9b198;
+  margin-top: 25px;
+}
+.faculty-main ul {
+  padding: 0px;
+}
+.faculty-main ul li {
+  line-height: 0.8;
+  margin-bottom: 12px;
+}
+.faculty-main ul li .collab-details {
+  position: fixed;
+  width: 30%;
+  text-align: center;
+  left: 35%;
+  height: auto;
+  opacity: 0;
+  font-size: 13px;
+  height: 100vh;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faculty-main ul li .collab-details .information {
+  margin-top: 16px;
+  color: black;
+  letter-spacing: 0;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.faculty-main ul li .collab-details .information span {
+  color: #605FA5;
+  font-size: 18px;
+}
+.faculty-main ul li .collab-details img {
+  max-width: 20vw;
+  max-height: 20vw;
+}
+.faculty-main ul li:hover {
+  color: #605FA5;
+  cursor: pointer;
+}
+.faculty-main ul li:hover .collab-details {
+  opacity: 1;
+  color: #149447;
+}
+
+/* 
+
+
+
+		FACULTY ENDS
+
+
+
+							*/
 /* 
 
 

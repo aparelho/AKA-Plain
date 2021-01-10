@@ -52,7 +52,7 @@
 						      data-expand="-50">
 					  <?php endforeach ?>
 				</div>
-				<div class="text">
+				<div class="text md-txt">
 					<?= $dailyitem->continued() ?>
 				</div>
 			</div>

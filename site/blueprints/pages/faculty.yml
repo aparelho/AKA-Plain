@@ -1,0 +1,51 @@
+title: Faculty 
+options:
+  status: true
+  delete: false
+  
+
+columns:
+  left:
+    width: 1/2
+    fields:
+      members:
+        label: Members
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+          pos:
+            label: Position
+            type: text
+          descr:
+            label: Bio
+            type: textarea
+          pic:
+            label: Picture
+            type: files
+          email:
+            label: E-mail
+            type: email    
+  right:
+    width: 1/2
+    fields:
+      collabs:
+        label: Collaborators
+        type: structure
+        fields:
+          cname:
+            label: Name
+            type: text
+          cpos:
+            label: Position
+            type: text
+          cdescr:
+            label: Bio
+            type: textarea
+          cpic:
+            label: Picture
+            type: files
+          cemail:
+            label: E-mail
+            type: email    
