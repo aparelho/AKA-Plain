@@ -26,7 +26,7 @@
 			    </li>
 			    <?php endforeach ?>
 			    <li class=""><?= $pages->find('legal')->title() ?></li>
-			    <li class=""><?= $pages->find('site-credits')->title() ?></li>
+			    <li class=""><a href="https://aparelho.tv"><?= $pages->find('site-credits')->title() ?></a></li>
 			  </ul>
 
 			</div>

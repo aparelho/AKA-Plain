@@ -40,7 +40,7 @@ $lg-txt: calc(2.1vw + 5px);
 $md-txt: calc(1.7vw + 5px);
 $sm-txt: 15px;
 
-$lg-txt-mbl: 3.6vh;
+$lg-txt-mbl: 3.4vh;
 $md-txt-mbl: 3vh;
 
 .lg-txt {
@@ -548,9 +548,8 @@ header {
 .news {
 	display: flex;
 	flex-direction: column;
-	min-height: 40vh;
 	position: relative;
-	margin-top: 55vh;
+	margin-top: 70vh;
 	background: white;
 	z-index: 3;
 
@@ -793,11 +792,11 @@ header {
 							    letter-spacing: -0.03em;
 							}
 
-							&.announcement, &.kunngjøringer, &.update, &.oppdatering {
+							&.announcement, &.kunngjøringer, &.update, &.oppdatering, &.Announcement, &.Kunngjøringer, &.Update, &.Oppdatering {
 								background: #9ED2B3;
 							}
 
-							&.workshops{
+							&.workshops, &.kurs, &.Kurs, &.Course, &.course {
 								background: #C9B198;
 							}
 
@@ -1000,7 +999,7 @@ header {
 						    left: 0px;
 						    margin-top: 10px;
 
-						    &.Course, &.Kurs {
+						    &.Course, &.Kurs, &.course, &.kurs {
 						    	background: $aka-light-green; 
 						    	}
 
@@ -1486,9 +1485,12 @@ header {
 
 	ul {
 		padding: 0px;
+		width: 25vw;
+
 
 		@media (max-width: 900px) {
 			z-index: -1;
+			width: 90vw;
 		}
 
 		li {

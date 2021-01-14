@@ -1,4 +1,4 @@
-Title: Daily one
+Title: Introduction
 
 ----
 
@@ -8,7 +8,7 @@ Relates:
 
 ----
 
-Date: 2020-10-16 00:20
+Date: 2018-11-01 03:20
 
 ----
 

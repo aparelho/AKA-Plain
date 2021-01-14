@@ -13,7 +13,7 @@
 							as $current): ?>
 
 
-		<div class="news-wrapper event-wrapper lg-txt">
+		<div class="news-wrapper event-wrapper lg-txt" id="<?= $current->uid() ?>">
 			<div class="news-item event-item transform-3d">
 				<div class="date">
 					<?php if($current->enddate() != ''): ?>

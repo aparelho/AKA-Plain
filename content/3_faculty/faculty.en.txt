@@ -5,42 +5,6 @@ Title: Faculty
 Members:
 
 - 
-  name: Hege Nyborg
-  pos: ""
-  descr: 'Hege Nyborg works with painting, drawing and text, often in series and installations. In previous works she has incorporated references to scientific poster works, landscape architecture, film dialogue and literary texts, among others. The texts can be appropriated fragments from existing works or the artists own observations that disturb their reading. Hege studied at Amherst College, BA Political Science (Hons.), Statens Håndverks- og kunstindustriskole, Akademie der bildenden Künste, Wien and Statens Kunstakademi (The National Academy of Fine Arts in Norway). Her work has been shown at institutions such as Henie Onstad Art Centre, Sørlandets Kunstmuseum, The National Museum of Fine Art, Architecture and Design in Oslo, Kunsthall Helsinki and National Museum of Women in the Arts, Washington D.C. Hege has been teaching at various institutions since the 1990’s including Oslo National Academy of the Arts KHiO where she was acting Dean 2016-17. Currently she chairs the board of Billedkunstnernes Vederlagsfond and is the deputy chair of the board of Kunstnernes Hus, Oslo.'
-  pic:
-    - unnamed-1.jpg
-  email: ""
-- 
-  name: Sverre Gullesen
-  pos: ""
-  descr: >
-    Sverre Gullesen is an artist, educated
-    at Oslo Art Academy and Ecole Nationale
-    Supérieure des Arts de la Cambre in
-    Brussels. Previous works were centered
-    around performance and social
-    choreography, but since 2015 his
-    practice has mainly focused on reliefs
-    in concrete and sculptures in textile
-    and concrete. Gullesen has been chair of
-    the boards of Kunstnernes Hus and UKS
-    Young Artists Society in Oslo and is on
-    the board of OCA Office of Contemporary
-    Art Norway and Nitja Centre for
-    Contemporary Art. From 2006 to 2015 he
-    worked with the art collective D.O.R and
-    ran Galleri D.O.R. in Brussels.
-  pic: [ ]
-  email: ""
-- 
-  name: Kristine J. Pilgaard
-  pos: ""
-  descr: 'Kristine Jærn Pilgaard is an independent curator, editor and art producer based in Oslo. Her work is primarily focused on site-specific art projects in public space. She was Curatorial Fellow at The Whitney Museum’s Independent Study Program in New York (2013-14) researching art and public space. Previous curated projects include: Lene Berg’s Stalin by Picasso or Portrait of Woman with Moustache (2008), Folketeaterbygningen, Oslo; Goksøyr & Martens’ Palestinian Embassy for the Liverpool Biennial (2012); Ahmad Ghossein ́s Relocating the Past: ruins for the future (2013), the Government Square, Oslo and A K Dolven’s Untuned Bell (2010/20), Tullinløkka and Honnørbrygga, Oslo. In 2016 she co-curated Public Calling, an international conference on public space and free speech at the National Theatre, Oslo. She has curated several projects in Norwegian prisons involving inmates in the artistic process; such as Eirin Støen’s Hagen (2011) at the high security department of Trondheim Prison and En forestilling om Frihet (2019) at Ila Detention and Security Prison.'
-  pic:
-    - k.jpg
-  email: ""
-- 
   name: 'Thora Dolven Balke '
   pos: ""
   descr: >
@@ -78,6 +42,42 @@ Members:
   pic: [ ]
   email: ""
 - 
+  name: Kristine J. Pilgaard
+  pos: ""
+  descr: 'Kristine Jærn Pilgaard is an independent curator, editor and art producer based in Oslo. Her work is primarily focused on site-specific art projects in public space. She was Curatorial Fellow at The Whitney Museum’s Independent Study Program in New York (2013-14) researching art and public space. Previous curated projects include: Lene Berg’s Stalin by Picasso or Portrait of Woman with Moustache (2008), Folketeaterbygningen, Oslo; Goksøyr & Martens’ Palestinian Embassy for the Liverpool Biennial (2012); Ahmad Ghossein ́s Relocating the Past: ruins for the future (2013), the Government Square, Oslo and A K Dolven’s Untuned Bell (2010/20), Tullinløkka and Honnørbrygga, Oslo. In 2016 she co-curated Public Calling, an international conference on public space and free speech at the National Theatre, Oslo. She has curated several projects in Norwegian prisons involving inmates in the artistic process; such as Eirin Støen’s Hagen (2011) at the high security department of Trondheim Prison and En forestilling om Frihet (2019) at Ila Detention and Security Prison.'
+  pic:
+    - k.jpg
+  email: ""
+- 
+  name: Hege Nyborg
+  pos: ""
+  descr: 'Hege Nyborg works with painting, drawing and text, often in series and installations. In previous works she has incorporated references to scientific poster works, landscape architecture, film dialogue and literary texts, among others. The texts can be appropriated fragments from existing works or the artists own observations that disturb their reading. Hege studied at Amherst College, BA Political Science (Hons.), Statens Håndverks- og kunstindustriskole, Akademie der bildenden Künste, Wien and Statens Kunstakademi (The National Academy of Fine Arts in Norway). Her work has been shown at institutions such as Henie Onstad Art Centre, Sørlandets Kunstmuseum, The National Museum of Fine Art, Architecture and Design in Oslo, Kunsthall Helsinki and National Museum of Women in the Arts, Washington D.C. Hege has been teaching at various institutions since the 1990’s including Oslo National Academy of the Arts KHiO where she was acting Dean 2016-17. Currently she chairs the board of Billedkunstnernes Vederlagsfond and is the deputy chair of the board of Kunstnernes Hus, Oslo.'
+  pic:
+    - unnamed-1.jpg
+  email: ""
+- 
+  name: Sverre Gullesen
+  pos: ""
+  descr: >
+    Sverre Gullesen is an artist, educated
+    at Oslo Art Academy and Ecole Nationale
+    Supérieure des Arts de la Cambre in
+    Brussels. Previous works were centered
+    around performance and social
+    choreography, but since 2015 his
+    practice has mainly focused on reliefs
+    in concrete and sculptures in textile
+    and concrete. Gullesen has been chair of
+    the boards of Kunstnernes Hus and UKS
+    Young Artists Society in Oslo and is on
+    the board of OCA Office of Contemporary
+    Art Norway and Nitja Centre for
+    Contemporary Art. From 2006 to 2015 he
+    worked with the art collective D.O.R and
+    ran Galleri D.O.R. in Brussels.
+  pic: [ ]
+  email: ""
+- 
   name: Dag Erik Elgin
   pos: ""
   descr: 'Dag Erik Elgin works with an artistic examination of the history of painting and contemporary image culture. Projects like Museumsarbeid (museum work), Originals Grisaille and La Collection Moderne consist of text-based paintings and repetitions in an exploration of modernism and cultural and aesthetical depictions in contemporary society. Elgins own texts are a part of his practice, for example "Preparing for Painting to Happen" in Josef Albers: No Tricks, No Twinkling of the Eyes and "p.p. Provenance Painted" in Looters, Smugglers, and Collectors: Provenance Research and the Market, 2014 and 2015. His monograph «Mirror falling from the Wall» was published in 2019. Dag Erik studied at the University of Oslo, Statens Håndverks- og kunstindustriskole, Kunstakademie Düsseldorf and Statens Kunstakademi (The National Academy of Fine Arts in Norway). His work has been shown at institutions such as Henie Onstad Kunstsenter, The National Gallery in Oslo, The National Museum of Fine Art, Architecture and Design in Oslo, Albertinum, Dresden and Hamburger Bahnhof, Berlin. He was a professor at the Oslo National Academy of the Arts KHiO 2010-2016.'
@@ -86,4 +86,11 @@ Members:
 
 ----
 
-Collabs: 
+Collabs:
+
+- 
+  cname: Alexander Eriksson Furunes
+  cpos: ""
+  cdescr: 'Alexander Eriksson Furunes studied at the Architectural Association School of Architecture, UK, before receiving his Master’s in Architecture at the Norwegian University of Science and Technology (NTNU). Furunes has initiated and completed a series of projects with communities in UK, India, Philippines, Brazil, Vietnam and China. Together with Sudarshan Khadka and Barangay Engkanto, he formed Framework Collaborative whose curatorial proposal, ‘Structures of Mutual Support’, will be the Philippine Pavilion at the 2020 Venice Architecture Biennale. He is currently doing an Artistic Research (entitled Learning from Bayanihan & Dugnad) on participative planning, design and build processes at the Norwegian Artistic Research Programme (NTNU 2016-20).'
+  cpic: [ ]
+  cemail: ""

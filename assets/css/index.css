@@ -20,7 +20,7 @@
 }
 @media (max-width: 900px) {
   .lg-txt {
-    font-size: 3.6vh;
+    font-size: 3.4vh;
   }
 }
 
@@ -474,9 +474,8 @@ header .shortcuts .menu-caller .caller-helper:hover {
 .news {
   display: flex;
   flex-direction: column;
-  min-height: 40vh;
   position: relative;
-  margin-top: 55vh;
+  margin-top: 70vh;
   background: white;
   z-index: 3;
 }
@@ -703,10 +702,10 @@ header .shortcuts .menu-caller .caller-helper:hover {
     letter-spacing: -0.03em;
   }
 }
-.news .news-wrapper .news-item .tags ul li a.announcement, .news .news-wrapper .news-item .tags ul li a.kunngjøringer, .news .news-wrapper .news-item .tags ul li a.update, .news .news-wrapper .news-item .tags ul li a.oppdatering {
+.news .news-wrapper .news-item .tags ul li a.announcement, .news .news-wrapper .news-item .tags ul li a.kunngjøringer, .news .news-wrapper .news-item .tags ul li a.update, .news .news-wrapper .news-item .tags ul li a.oppdatering, .news .news-wrapper .news-item .tags ul li a.Announcement, .news .news-wrapper .news-item .tags ul li a.Kunngjøringer, .news .news-wrapper .news-item .tags ul li a.Update, .news .news-wrapper .news-item .tags ul li a.Oppdatering {
   background: #9ED2B3;
 }
-.news .news-wrapper .news-item .tags ul li a.workshops {
+.news .news-wrapper .news-item .tags ul li a.workshops, .news .news-wrapper .news-item .tags ul li a.kurs, .news .news-wrapper .news-item .tags ul li a.Kurs, .news .news-wrapper .news-item .tags ul li a.Course, .news .news-wrapper .news-item .tags ul li a.course {
   background: #C9B198;
 }
 .news .news-wrapper .news-item .tags ul li a.students, .news .news-wrapper .news-item .tags ul li a.studenter {
@@ -871,7 +870,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   left: 0px;
   margin-top: 10px;
 }
-.pre-agenda .agenda-container .event-wrapper li a.Course, .pre-agenda .agenda-container .event-wrapper li a.Kurs {
+.pre-agenda .agenda-container .event-wrapper li a.Course, .pre-agenda .agenda-container .event-wrapper li a.Kurs, .pre-agenda .agenda-container .event-wrapper li a.course, .pre-agenda .agenda-container .event-wrapper li a.kurs {
   background: #9ED2B3;
 }
 .pre-agenda .agenda-container .event-wrapper li a.Event, .pre-agenda .agenda-container .event-wrapper li a.Aktivitet {
@@ -1305,10 +1304,12 @@ header .shortcuts .menu-caller .caller-helper:hover {
 }
 .faculty-main ul {
   padding: 0px;
+  width: 25vw;
 }
 @media (max-width: 900px) {
   .faculty-main ul {
     z-index: -1;
+    width: 90vw;
   }
 }
 .faculty-main ul li {

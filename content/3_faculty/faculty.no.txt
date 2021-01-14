@@ -12,6 +12,12 @@ Members:
     - unnamed.jpg
   email: ""
 - 
+  name: Kristine Jærn Pilgaard
+  pos: ""
+  descr: 'Kristine Jærn Pilgaard er en selvstendig kurator, redaktør og kunstprodusent basert i Oslo. Arbeidet hennes fokuserer hovedsakelig på stedsspesifikke kunstprosjekter for offentlige rom. Hun var Curatorial Fellow på Whitneymuseets Independent Study Program i New York (2013-14) med fokus på art and public space. Tidligere kuraterte prosjekter inkluderer bl.a. Lene Bergs Stalin by Picasso or Portrait of Woman with Moustache (2008), Folketeaterbygningen, Oslo; Goksøyr & Martens’ Palestinian Embassy for Liverpoolbiennialen (2012); Ahmad Ghossein ́s Relocating the Past: ruins for the future (2013), Regjeringskvartalet, Oslo og A K Dolven’s Untuned Bell (2010/20), Tullinløkka aog Honnørbrygga, Oslo. I 2016 co-kuraterte hun Public Calling, en internasjonal konferanse om offentlig rom og ytringsfrihet på Nasjonalteateret i Oslo. Hun har kuratert flere prosjekter i norske fengsler som har involvert innsatte i den kunstneriske prosessen, som Eirin Støens Hagen (2011) for høysikkerhetsavdelingen i Trondheim Fengsel og En forestilling om Frihet (2019) på Ila Fengsel og Forvaringsanstalt.'
+  pic: [ ]
+  email: ""
+- 
   name: Hege Nyborg
   pos: ""
   descr: |
@@ -46,27 +52,14 @@ Members:
     D.O.R og drev Galleri D.O.R i Brussel.
   pic: [ ]
   email: ""
-- 
-  name: Kristine Jærn Pilgaard
-  pos: ""
-  descr: 'Kristine Jærn Pilgaard er en selvstendig kurator, redaktør og kunstprodusent basert i Oslo. Arbeidet hennes fokuserer hovedsakelig på stedsspesifikke kunstprosjekter for offentlige rom. Hun var Curatorial Fellow på Whitneymuseets Independent Study Program i New York (2013-14) med fokus på art and public space. Tidligere kuraterte prosjekter inkluderer bl.a. Lene Bergs Stalin by Picasso or Portrait of Woman with Moustache (2008), Folketeaterbygningen, Oslo; Goksøyr & Martens’ Palestinian Embassy for Liverpoolbiennialen (2012); Ahmad Ghossein ́s Relocating the Past: ruins for the future (2013), Regjeringskvartalet, Oslo og A K Dolven’s Untuned Bell (2010/20), Tullinløkka aog Honnørbrygga, Oslo. I 2016 co-kuraterte hun Public Calling, en internasjonal konferanse om offentlig rom og ytringsfrihet på Nasjonalteateret i Oslo. Hun har kuratert flere prosjekter i norske fengsler som har involvert innsatte i den kunstneriske prosessen, som Eirin Støens Hagen (2011) for høysikkerhetsavdelingen i Trondheim Fengsel og En forestilling om Frihet (2019) på Ila Fengsel og Forvaringsanstalt.'
-  pic: [ ]
-  email: ""
 
 ----
 
 Collabs:
 
 - 
-  cname: Felipe Pena
+  cname: Alexander Eriksson Furunes
   cpos: ""
-  cdescr: B
-  cpic:
-    - unnamed-2.jpg
-  cemail: ""
-- 
-  cname: Outro
-  cpos: ""
-  cdescr: collaborator
+  cdescr: "Alexander Eriksson Furunes studerte ved Architectural Association School of Architecture, UK, før han tok sin mastergrad i arkitektur ved Norges teknisk-naturvitenskapelige universitet (NTNU). Furunes har initiert og fullført en serie prosjekter med lokalsamfunn i Storbritannia, India, Filippinene, Brasil, Vietnam og Kina. Sammen med Sudarshan Khadka lager hanr den filippinske paviljongen på Venezia Arkitekturbiennale i 2020 ved navn 'Structures of Mutual Support'. Han tar for tiden en kunstnerisk PhD (med tittelen Learning from Bayanihan & Dugnad) om deltakende planlegging, design og byggeprosesser ved NTNU (2016-20)."
   cpic: [ ]
   cemail: ""

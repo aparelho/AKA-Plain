@@ -2,13 +2,11 @@ Title: First day of school!
 
 ----
 
-Relates:
-
-- agenda/workshop-two
+Relates: 
 
 ----
 
-Date: 2020-10-30 03:00
+Date: 2021-01-18 06:00
 
 ----
 
@@ -20,7 +18,7 @@ Continued: After several years of preparation we can finally receive our first s
 
 ----
 
-Tags: announcement
+Tags: update
 
 ----
 

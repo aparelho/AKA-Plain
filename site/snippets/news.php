@@ -17,7 +17,7 @@
 	<div class="news-wrapper shadow-inset">
 		<div class="news-item transform-3d">
 			<div class="date">
-				<?= $dailyitem->date()->toDate('%d.%m') ?>
+				<?= $dailyitem->date()->toDate('%d.%m.%y') ?>
 			</div>
 			<div class="tags">
 				<?php
