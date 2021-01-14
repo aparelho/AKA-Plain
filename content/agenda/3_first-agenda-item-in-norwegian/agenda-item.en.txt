@@ -1,0 +1,37 @@
+Title: First Agenda Item in Norwegian
+
+----
+
+Content: Text from the norwegian versions
+
+----
+
+Startdate: 2020-06-02
+
+----
+
+Enddate: 
+
+----
+
+Starttime: 17:00
+
+----
+
+Endtime: 20:00
+
+----
+
+Tags: Lecture
+
+----
+
+Who: 
+
+----
+
+Where: Classroom
+
+----
+
+Relates: 

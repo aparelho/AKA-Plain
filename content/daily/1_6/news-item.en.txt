@@ -1,10 +1,10 @@
-Title: 6
+Title: First day of school!
 
 ----
 
 Relates:
 
-- archive
+- agenda/workshop-two
 
 ----
 
@@ -12,11 +12,11 @@ Date: 2020-10-30 03:00
 
 ----
 
-Intro: Joined wokrshop with the MFA students from Norwegian Academy of...
+Intro: First day of school!
 
 ----
 
-Continued: 
+Continued: After several years of preparation we can finally receive our first students in akademirommet - our class room in Agder Prison, dep. Froland. Art teacher Sverre Gullesen and curator Kristine Jærn Pilgaard will introduce the art academy and initiate our first week of teaching.
 
 ----
 

@@ -6,6 +6,6 @@
 
 					<?php snippet ('chat-icon') ?>
 
-				<div class="caller-helper">menu</div>
+				<div class="caller-helper"><?php echo t('menu') ?></div>
 			</div>
 			</nav>

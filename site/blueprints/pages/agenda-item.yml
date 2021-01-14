@@ -7,9 +7,10 @@ columns:
       agendatext:
         type: fields
         fields:
-          content:
+          agendatxt:
             type: textarea
             size: medium
+            label: Event description
       images:
         type: files
         layout: cards
@@ -44,6 +45,14 @@ columns:
           tags:
             type: tags
             width: 1/2
+            label: Event Type
+          who:
+            type: text
+            width: 1/2
+            label: Teacher, or Staff Member
+          where:
+            type: text
+            label: Location
           relates:
             type: pages
             help: select published pages that relate to this event (this will create a link for the user)

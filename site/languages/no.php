@@ -7,9 +7,22 @@ return [
     'locale' => [
         'LC_ALL' => 'no_NO'
     ],
-    'name' => 'norwegian',
+    'name' => 'norsk',
     'translations' => [
-
+        'close' => 'Lukk',
+        'back' => 'Lukk',
+        'event' => 'Event',
+        'calendar' => 'Kalender',
+        'calfull' => 'Full kalender',
+        'events' => 'Events',
+        'apply' => 'Opptak',
+        'blb' => 'Tavle',
+        'googlecal' => 'Abrir no Google Calendar',
+        'more' => 'Meny',
+        'menu' => 'Meny',
+        'journal' => 'Nyheter.',
+        'collab' => 'Samarbeid',
+        'members' => 'Medlemmer',
     ],
     'url' => NULL
 ];

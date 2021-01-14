@@ -5,7 +5,7 @@
 	<div class="blb-header">
 		<div class="blb-header-container" style="display: flex;">
 			<span class="blb-title"><?= $currentblackboard->title() ?></span>
-			<span class="blb-close blackboard-dismiss">(Close)</span>
+			<span class="blb-close blackboard-dismiss">(<?php echo t('close') ?>)</span>
 
 			<div class="blb-description">
 				<?= $currentblackboard->description()->kirbytext() ?>

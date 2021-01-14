@@ -10,26 +10,42 @@ columns:
           text:
             type: textarea
             size: medium
-            label: Main Wide Text
-          practical:
+            label: Introduction
+          secondtitle:
+            type: text
+            label: Second Section title
+            help: used for lateral navigation
+          second:
             type: textarea
             size: medium
-            label: Practical Info
-          bg:
+            label: Second Section
+          thirdtitle:
+            type: text
+            label: Third Section title
+            help: used for lateral navigation
+          third:
             type: textarea
             size: medium
-            label: Background
+            label: Third Section
+          fourthtitle:
+            type: text
+            label: 4th Section title
+            help: used for lateral navigation
+          fourth:
+            type: textarea
+            size: large
+            label: 4th Section
+          fifthtitle:
+            type: text
+            label: Extra Text
+            help: used for lateral navigation
+          fifth:
+            type: textarea
+            size: medium
 
   right:
     width: 1/2
     sections:
-      secondary: 
-        type: fields
-        fields: 
-          sectext:
-            type: textarea
-            size: large
-            label: Second Column Text
-          moreinfo:
-            type: textarea
-            size: medium
+      slideshow: 
+        type: files 
+          

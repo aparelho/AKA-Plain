@@ -1,6 +1,6 @@
-<?php snippet ('header') ?>
+<?php snippet ('header-internal') ?>
 
-<main>
+<main class="archive-soon lg-txt">
 
 Our archive will be up and running soon.
 

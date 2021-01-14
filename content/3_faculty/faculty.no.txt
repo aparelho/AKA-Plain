@@ -1,0 +1,72 @@
+Title: Fakultet
+
+----
+
+Members:
+
+- 
+  name: Thora Dolven Balke
+  pos: ""
+  descr: 'Thora Dolven Balke er utdannet ved Fata Morgana Fotografiske billedkunstskole i Danmark; Kunstakademiene i Bergen og Oslo, og Mountain School of Art i Los Angeles. Arbeidene hennes har vært del av utstillinger som The Collectors, Danske og Nordiske Paviljongen, Veneziabiennalen (2009); Lights On—Norwegian Contemporary Art, Astrup Fearnley Museum, Oslo (2008) og Biennale of Jafre, Catalonia, Spania (2009). Nylige utstillinger inkluderer Mind moves with matter, body blends into space, Kunsthall Trondheim (2019); INNLAND, Centre de Art Contemporaine, Tours (2017); The Young Lions, Preus Fotomuseum, Oslo (2017);  soloutstillingene FLOW på Cavalo, Rio de Janeiro og MELK, Oslo (2019); All that breathes conspires, UKS og Ultimafestival, Oslo (2017); og Von hinten durch die Brust ins Auge, Kristiansand Kunsthall (2015). Dolven Balke co-kuraterte Lofoten International Art Festival – LIAF med Linn Pedersen i 2011 og grunnla og programmerte det kunstnerstyrte galleriet REKORD (2006-2010) med Eirin Støen og Ingvild Langgård. Siden 2009 har hun kuratert flere prosjekter i norske fengsler for KORO Kunst i Offentlig Rom. I 2016 deltok hun i residency og skoleprogrammet Capacete i Rio de Janeiro, Brasil og siden bor og arbeider hun mellom der og Oslo.'
+  pic:
+    - unnamed.jpg
+  email: ""
+- 
+  name: Hege Nyborg
+  pos: ""
+  descr: |
+    Hege Nyborg arbeider med maleri, tegning og tekst, ofte i serier og installasjoner. I tidligere arbeider innlemmes referanser til naturvitenskapelige plansjeverk, landskapsarkitektur, filmdialoger, litterære tekster m.m. Tekstene kan være approprierte fragmenter eller egne observasjoner som forstyrrer lesningen.
+    Hege er utdannet ved Amherst College, BA Political Science (Hons.), Statens Håndverks- og kunstindustriskole, Akademie der bildenden Künste, Wien og Statens Kunstakademi, Oslo. Hun har stilt ut ved institusjoner som Henie Onstad Kunstsenter, Sørlandets Kunstmuseum, Nasjonalmuseet for kunst, arkitektur og design, Kunsthalle Helsinki og National Museum of Women in the Arts, Washington D.C. Hun har undervist ved ulike utdanningsinstitusjoner siden1990-tallet, bl.a. Kunstakademiet, KHiO hvor hun også var fungerende dekan 2016-17 og er for tiden styreleder i Billedkunstnernes Vederlagsfond og nestleder i Kunstnernes Hus styre.
+  pic: [ ]
+  email: ""
+- 
+  name: Dag Erik Elgin
+  pos: ""
+  descr: 'Dag Erik Elgin arbeider med en kunstnerisk undersøkelse av maleriets historie og samtidens billedkultur. Prosjekter som Museumsarbeid, Originals Grisaille og La Collection Moderne består av tekstbaserte malerier og repetisjon i utforskningen av modernismen og samtidens kulturelle og estetiske fremstillinger. Egne tekster er del av kunstnerisk praksis, f.eks. "Preparing for Painting to Happen" i Josef Albers: No Tricks, No Twinkling of the Eyes og "p.p. Provenance Painted" i Looters, Smugglers, and Collectors: Provenance Research and the Market, 2014 og 2015. Monografien «Mirror falling from the Wall» ble utgitt i 2019. Dag Erik er utdannet ved Universitetet i Oslo, Statens Håndverks- og kunstindustriskole, Kunstakademie Düsseldorf og Statens Kunstakademi. Han har stilt ut ved institusjoner som Henie Onstad Kunstsenter, Nasjonalgalleriet Oslo, Nasjonalmuseet for kunst, arkitektur og design, Albertinum, Dresden og Hamburger Bahnhof, Berlin. Han var professor ved Kunstakademiet, KHiO 2010-2016.'
+  pic:
+    - unnamed-2.jpg
+  email: ""
+- 
+  name: Sverre Gullesen
+  pos: ""
+  descr: >
+    Sverre Gullesen er en billedkunstner
+    utdannet ved Kunstakademiet i Oslo og
+    Ecole Nationale Supérieure des Arts
+    Visuels de la Cambre i Brussel. Han har
+    tidligere jobbet med performance og
+    sosialkoreografi, men har siden 2015
+    primært jobbet med relieffer i betong
+    og skulpturer i tekstil og betong. Han
+    har hatt styrelederverv på Kunstnernes
+    Hus og UKS i Oslo, og sitter i styret i
+    OCA Office for Contemporary Art og Nitja
+    senter for samtidskunst. I perioden 2006
+    til 2015 jobbet han med kunstnergruppen
+    D.O.R og drev Galleri D.O.R i Brussel.
+  pic: [ ]
+  email: ""
+- 
+  name: Kristine Jærn Pilgaard
+  pos: ""
+  descr: 'Kristine Jærn Pilgaard er en selvstendig kurator, redaktør og kunstprodusent basert i Oslo. Arbeidet hennes fokuserer hovedsakelig på stedsspesifikke kunstprosjekter for offentlige rom. Hun var Curatorial Fellow på Whitneymuseets Independent Study Program i New York (2013-14) med fokus på art and public space. Tidligere kuraterte prosjekter inkluderer bl.a. Lene Bergs Stalin by Picasso or Portrait of Woman with Moustache (2008), Folketeaterbygningen, Oslo; Goksøyr & Martens’ Palestinian Embassy for Liverpoolbiennialen (2012); Ahmad Ghossein ́s Relocating the Past: ruins for the future (2013), Regjeringskvartalet, Oslo og A K Dolven’s Untuned Bell (2010/20), Tullinløkka aog Honnørbrygga, Oslo. I 2016 co-kuraterte hun Public Calling, en internasjonal konferanse om offentlig rom og ytringsfrihet på Nasjonalteateret i Oslo. Hun har kuratert flere prosjekter i norske fengsler som har involvert innsatte i den kunstneriske prosessen, som Eirin Støens Hagen (2011) for høysikkerhetsavdelingen i Trondheim Fengsel og En forestilling om Frihet (2019) på Ila Fengsel og Forvaringsanstalt.'
+  pic: [ ]
+  email: ""
+
+----
+
+Collabs:
+
+- 
+  cname: Felipe Pena
+  cpos: ""
+  cdescr: B
+  cpic:
+    - unnamed-2.jpg
+  cemail: ""
+- 
+  cname: Outro
+  cpos: ""
+  cdescr: collaborator
+  cpic: [ ]
+  cemail: ""

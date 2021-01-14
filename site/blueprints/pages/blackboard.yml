@@ -1,6 +1,6 @@
 title: Blackboard
 options:
-  status: false
+  status: true
   delete: false
 
 icon: 👨‍🎓

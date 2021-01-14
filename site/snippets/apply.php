@@ -9,5 +9,5 @@
 		
 	</div>
 
-	<button class="close application-caller"> Back </button>
+	<button class="close application-caller"> <?php echo t('back') ?> </button>
 </section>

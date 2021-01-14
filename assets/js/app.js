@@ -5,7 +5,6 @@ $(document).ready(function () {
     const parent = $(e.target).parents(".news-wrapper");
     $(".news-wrapper").not(parent).removeClass("open");
     parent.toggleClass("open");
-    $(".global-wrapper").toggleClass("news-open");
   });
 
   $(".menu-caller").click(() => {
@@ -57,5 +56,15 @@ $(document).ready(function () {
       $("body").toggleClass("no-scroll");
       $(".blb-intro").toggleClass("full");
       $(".blackboard-container").toggleClass("visible");      
+    });
+
+    $(".collab-expand").click(() => {
+      $(".collab-details").addClass("open");
+      $(".collab-closer").addClass("available");
+    });
+
+    $(".collab-closer").click(() => {
+      $(".collab-details").removeClass("open");
+       $(".collab-closer").removeClass("available");
     });
 });

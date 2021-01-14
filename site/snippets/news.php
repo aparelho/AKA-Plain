@@ -3,14 +3,14 @@
 <section class="news">
 	<div class="news-controls">
 		<div class="title">
-			Daily
+			<?php echo t('journal') ?>
 		</div>
-		<div class="filtering">
+		<!--<div class="filtering">
 			Filter
 		</div>
 		<div class="expand">
 			<button>All</button>
-		</div>
+		</div>-->
 	</div>
 
 <?php foreach ($pages->find('daily')->children()->listed()->sortBy('date', 'desc') as $dailyitem): ?>
@@ -43,7 +43,7 @@
 					<?= $dailyitem->intro() ?>
 				</div>
 				<div class="news-images">
-					 <?php foreach ($dailyitem->images()->limit(4)  as $image): ?>
+					 <?php foreach ($dailyitem->images()->limit(1)  as $image): ?>
 						      <img 
 						      data-srcset="
 						      <?= $image->srcset([300, 800, 1024]) ?>" 
