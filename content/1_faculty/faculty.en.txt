@@ -39,7 +39,9 @@ Members:
     Capacete programme in Rio de Janeiro,
     Brazil and since lives and works between
     there and Oslo, Norway.
-  pic: [ ]
+  pic:
+    - >
+      tdb19-monarch-fold-thora-dolven-balke-2019-na-79-x-103-cm_3.jpg
   email: ""
 - 
   name: Kristine J. Pilgaard
@@ -53,7 +55,7 @@ Members:
   pos: ""
   descr: 'Hege Nyborg works with painting, drawing and text, often in series and installations. In previous works she has incorporated references to scientific poster works, landscape architecture, film dialogue and literary texts, among others. The texts can be appropriated fragments from existing works or the artists own observations that disturb their reading. Hege studied at Amherst College, BA Political Science (Hons.), Statens Håndverks- og kunstindustriskole, Akademie der bildenden Künste, Wien and Statens Kunstakademi (The National Academy of Fine Arts in Norway). Her work has been shown at institutions such as Henie Onstad Art Centre, Sørlandets Kunstmuseum, The National Museum of Fine Art, Architecture and Design in Oslo, Kunsthall Helsinki and National Museum of Women in the Arts, Washington D.C. Hege has been teaching at various institutions since the 1990’s including Oslo National Academy of the Arts KHiO where she was acting Dean 2016-17. Currently she chairs the board of Billedkunstnernes Vederlagsfond and is the deputy chair of the board of Kunstnernes Hus, Oslo.'
   pic:
-    - unnamed-1.jpg
+    - hegenyborg_hearing-voices1.jpeg
   email: ""
 - 
   name: Sverre Gullesen
@@ -75,13 +77,16 @@ Members:
     Contemporary Art. From 2006 to 2015 he
     worked with the art collective D.O.R and
     ran Galleri D.O.R. in Brussels.
-  pic: [ ]
+  pic:
+    - >
+      screen-shot-2021-01-14-at-11.39.06-pm.png
   email: ""
 - 
   name: Dag Erik Elgin
   pos: ""
   descr: 'Dag Erik Elgin works with an artistic examination of the history of painting and contemporary image culture. Projects like Museumsarbeid (museum work), Originals Grisaille and La Collection Moderne consist of text-based paintings and repetitions in an exploration of modernism and cultural and aesthetical depictions in contemporary society. Elgins own texts are a part of his practice, for example "Preparing for Painting to Happen" in Josef Albers: No Tricks, No Twinkling of the Eyes and "p.p. Provenance Painted" in Looters, Smugglers, and Collectors: Provenance Research and the Market, 2014 and 2015. His monograph «Mirror falling from the Wall» was published in 2019. Dag Erik studied at the University of Oslo, Statens Håndverks- og kunstindustriskole, Kunstakademie Düsseldorf and Statens Kunstakademi (The National Academy of Fine Arts in Norway). His work has been shown at institutions such as Henie Onstad Kunstsenter, The National Gallery in Oslo, The National Museum of Fine Art, Architecture and Design in Oslo, Albertinum, Dresden and Hamburger Bahnhof, Berlin. He was a professor at the Oslo National Academy of the Arts KHiO 2010-2016.'
-  pic: [ ]
+  pic:
+    - dagerikelgin-museum-work-8.jpeg
   email: ""
 
 ----

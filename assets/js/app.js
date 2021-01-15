@@ -67,4 +67,7 @@ $(document).ready(function () {
       $(".collab-details").removeClass("open");
        $(".collab-closer").removeClass("available");
     });
+
+    $(".mobile-loading").delay(1350).fadeOut(250);
+
 });

@@ -3,6 +3,7 @@
 
 
 <main class="pre-agenda full-agenda">
+	<a href="https://calendar.google.com/" target="_blank" rel="noopener"> <span class="google-cal"><?php echo t('googlecal') ?></span></a>
 <div class="agenda-container">
 	<?php foreach ($pages->find('agenda')
 							->children()
@@ -17,8 +18,8 @@
 			<div class="news-item event-item transform-3d">
 				<div class="date">
 					<?php if($current->enddate() != ''): ?>
-					<span><?= $current->startdate()->toDate('%d.%m.%y') ?></span><br>
-						<span>—<?= $current->enddate()->toDate('%d.%m.%y') ?></span>
+					<span><?= $current->startdate()->toDate('%d.%m') ?></span>—<br>
+						<span><?= $current->enddate()->toDate('%d.%m.%y') ?></span>
 					<?php else: ?>
 						<span><?= $current->startdate()->toDate('%d.%m.%y') ?></span>
 					<?php endif ?> 		
@@ -32,8 +33,8 @@
 
 				<div class="time">
 					<?php if($current->endtime() != ''): ?>
-					<span><?= $current->starttime() ?></span>—<br>
-						<span><?= $current->endtime() ?></span>
+					<span><?= $current->starttime() ?></span>
+						<span class="endtime">—<br><?= $current->endtime() ?></span>
 					<?php else: ?>
 						<span><?= $current->starttime() ?></span>
 					<?php endif ?> 		
@@ -53,7 +54,7 @@
 			<div class="event-details">
 				<div class="details">
 					<span><?= $current->who() ?></span>
-					<span><?= $current->where() ?></span>
+					<span class="where"><?= $current->where() ?></span>
 				</div>
 				<div class="event-description">
 					<?= $current->agendatxt()->kirbytext() ?>

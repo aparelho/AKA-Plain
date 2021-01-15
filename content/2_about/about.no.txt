@@ -6,35 +6,35 @@ Text: Agder Kunstakademi er en uavhengig kunstskole i Agder fengsel, avdeling Fr
 
 ----
 
-Secondtitle: Field
+Secondtitle: Backgrunn
 
 ----
 
-Second: Kunsten er i motsetning til andre fagområder grenseløs, og skiller ikke mellom det akademiske og praktiske. En utdanning i kunst åpner dermed for både intellektuelt og håndverksbasert arbeid og krysser mange fag, som arkitektur og design, musikk, filosofi, sosiologi, vitenskap og litteratur. Kunstakademiet krever ingen spesifikk bakgrunn, erfaring eller grunnutdanning av sine studenter. Alle personlige historier og interesser har sin egen verdi og kan være et utgangspunkt for et selvstendig kunstnerskap.
+Second:
+
+Agder Kunstakademi er et relasjonelt kunstprosjekt som består av en selvstendig, allsidig, høykvalitets kunstutdanning i tre år, fra våren 2020 ut våren 2023. Kunstprosjektet er initiert av kuratorene Kristine Jærn Pilgaard og Thora Dolven Balke, og videreutviklet av Akademirådet som er ansvarlig for prosjektets kunstfaglige og pedagogiske kvalitetssikring. Rådet består av kunstnerne Hege Nyborg, Dag Erik Elgin og Sverre Gullesen, i tillegg til kuratorene.
+
+Agder Kunstakademi er produsert av KORO – Kunst i offentlige rom og utviklet i nær dialog med Agder fengsel og Sam Eyde videregående skole. Etter kunstprosjektets treårige opplegg tas det høyde for at fengselet og skolen kan videreføre kunstutdanningen som del av sitt undervisningsprogram.
 
 ----
 
-Thirdtitle: Programme
+Thirdtitle: Misjon
 
 ----
 
-Third:
-
-Agder Kunstakademi er basert på samarbeid mellom kunstnere og studenter. Utdanningen skal reflektere studentenes individuelle interesser og utvikling, samt gi mulighet for personlig vekst. Kunstnerne som er invitert som gjestelærere vil gi en inngang gjennom eksempler fra sine egne og andres kunstnerskap, og gjennom konkret håndverksbasert samarbeid og eksperimentering. Kunstutdanningen skal gi relevant erfaring for ulike arbeidssituasjoner og roller i samfunnet. 
-
-Agder Kunstakademi tilbyr en utdanning hvor man får praktisk og teoretisk kunnskap innen en rekke medier og teknikker. Kunstakademiet inviterer kunstnere som er spesialisert i alt fra maleri og tegning til video, skulptur, lyd og tekst. De ovennevnte teknikkene læres ikke som et pensum, men knyttes hele tiden til en kunstnerisk undersøkelse. Kunstakademiet samarbeider med Sam Eyde videregående skole, fengselets bibliotek, og har tilgang på fengselets verksteder og verksmestere. Studenter planlegger, gjennomfører og monterer kunstverk i samarbeid med kunstnerne som underviser. Disse verkene blir en permanent kunstsamling i fengselet. I tillegg følger faste lærere opp studentenes utvikling, og tilbyr grunnkurs, lesegrupper og gruppekritikk.
+Third: Kunsten er i motsetning til andre fagområder grenseløs, og skiller ikke mellom det akademiske og praktiske. En utdanning i kunst åpner dermed for både intellektuelt og håndverksbasert arbeid og krysser mange fag, som arkitektur og design, musikk, filosofi, sosiologi, vitenskap og litteratur. Kunstakademiet krever ingen spesifikk bakgrunn, erfaring eller grunnutdanning av sine studenter. Alle personlige historier og interesser har sin egen verdi og kan være et utgangspunkt for et selvstendig kunstnerskap.
 
 ----
 
-Fourthtitle: Bakgrunn
+Fourthtitle: Programme
 
 ----
 
 Fourth:
 
-Agder Kunstakademi er et relasjonelt kunstprosjekt som består av en selvstendig, allsidig, høykvalitets kunstutdanning i tre år, fra våren 2020 ut våren 2023. Kunstprosjektet er initiert av kuratorene Kristine Jærn Pilgaard og Thora Dolven Balke, og videreutviklet av Akademirådet som er ansvarlig for prosjektets kunstfaglige og pedagogiske kvalitetssikring. Rådet består av kunstnerne Hege Nyborg, Dag Erik Elgin og Sverre Gullesen, i tillegg til kuratorene.
+Agder Kunstakademi er basert på samarbeid mellom kunstnere og studenter. Utdanningen skal reflektere studentenes individuelle interesser og utvikling, samt gi mulighet for personlig vekst. Kunstnerne som er invitert som gjestelærere vil gi en inngang gjennom eksempler fra sine egne og andres kunstnerskap, og gjennom konkret håndverksbasert samarbeid og eksperimentering. Kunstutdanningen skal gi relevant erfaring for ulike arbeidssituasjoner og roller i samfunnet. 
 
-Agder Kunstakademi er produsert av KORO – Kunst i offentlige rom og utviklet i nær dialog med Agder fengsel og Sam Eyde videregående skole. Etter kunstprosjektets treårige opplegg tas det høyde for at fengselet og skolen kan videreføre kunstutdanningen som del av sitt undervisningsprogram.
+Agder Kunstakademi tilbyr en utdanning hvor man får praktisk og teoretisk kunnskap innen en rekke medier og teknikker. Kunstakademiet inviterer kunstnere som er spesialisert i alt fra maleri og tegning til video, skulptur, lyd og tekst. De ovennevnte teknikkene læres ikke som et pensum, men knyttes hele tiden til en kunstnerisk undersøkelse. Kunstakademiet samarbeider med Sam Eyde videregående skole, fengselets bibliotek, og har tilgang på fengselets verksteder og verksmestere. Studenter planlegger, gjennomfører og monterer kunstverk i samarbeid med kunstnerne som underviser. Disse verkene blir en permanent kunstsamling i fengselet. I tillegg følger faste lærere opp studentenes utvikling, og tilbyr grunnkurs, lesegrupper og gruppekritikk.
 
 ----
 

@@ -1,6 +1,6 @@
 <?php snippet ('header-internal') ?>
 
-<main>
+<main class="faculty-main lg-txt">
 <?= $page->text()->kirbytext() ?>
 </main>
 

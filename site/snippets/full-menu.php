@@ -8,12 +8,13 @@
 	<div class="menu-container">
 		<div class="main-menu lg-txt">
 			<a class="agenda-caller"><?php echo t('calendar') ?></a>
-			<a class="application-caller"><?php echo t('apply') ?></a>
-			<a class="Blackboard"><?php echo t('blb') ?></a>
+			
 			<?php foreach ($site->children()->listed()->limit(8) as $item): ?>
 					 <a href="<?= $item->url() ?>" class="<?= $item->title() ?>"> <?= $item->title() ?> </a>
 				<?php endforeach ?>
 				
+				<a class="application-caller"><?php echo t('apply') ?></a>
+			<a class="Blackboard"><?php echo t('blb') ?></a>
 			</div>
 
 		<div class="secondary-menu">
@@ -31,5 +32,8 @@
 
 			</div>
 	</div>
+
+		<div class="overlay close-menu"></div>
+
 </section>
 <?php snippet ('pre-agenda') ?>

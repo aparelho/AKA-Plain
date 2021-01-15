@@ -3,6 +3,7 @@
 <head>
  <?= $page->htmlhead() ?>
  <?= $page->metaTags(['og', 'twitter', 'json-ld']) ?>
+ <meta name="description" content="<?= $pages->find('home')->text() ?>">
 
  <?= css(['assets/css/normalize.css', '@auto']) ?>
  <?= css(['assets/css/index.css', '@auto']) ?>
@@ -18,7 +19,6 @@
  <?= js(['assets/js/jquery-3.5.1.min.js']) ?>
  <?= js(['assets/js/lazysizes.min.js']) ?>
  <?= js(['assets/js/app.js']) ?>
- <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
 
 
 </head>

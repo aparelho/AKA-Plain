@@ -1,7 +1,7 @@
 <nav class="shortcuts">
-				<?php foreach ($site->children()->listed()->limit(2) as $item): ?>
-				 <a href="<?= $item->url() ?>" class="<?= $item->title() ?>"> <?= $item->title() ?> </a>
-			<?php endforeach ?>
+		
+				<a href="<?= $pages->find('about')->url() ?>" class="<?= $pages->find('about')->title() ?>"> <?= $pages->find('about')->title() ?> </a>
+				<a href="<?= $pages->find('archive')->url() ?>" class="<?= $pages->find('archive')->title() ?>"> <?= $pages->find('archive')->title() ?> </a>
 				<a class="Blackboard"><?php echo t('blb') ?></a>
 				
 

@@ -103,6 +103,48 @@ html {
 	scroll-behavior:smooth
 }
 
+
+.loading {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100vh;
+	z-index: 9999;
+	background: white;
+	overflow: hidden;
+
+
+	&.mobile-loading {
+
+		/*animation: loading-gone ease 2s;
+		animation-delay: 2s;
+		animation-fill-mode: forwards;*/
+
+		.mask {
+			overflow: hidden;
+			animation: mobile-opener steps(9) 1.25s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+
+			.holder {
+		    width: 100vw;
+		    height: 100vh;
+		    display: flex;
+		    flex-direction: column;
+		    padding-top: 2vh;
+
+				.image-holder {
+					background-image: url('../images/aka-logo-wide.png');
+					height: 10vh;
+				    background-size: 100%;
+				    background-repeat: no-repeat;
+				}
+			}
+		}
+	}
+}
+
 .global-wrapper {
     transition: all 1s ease;
     position: absolute;
@@ -312,9 +354,28 @@ header {
 			transform: translateX(90vw);
 		}
 
+	.overlay {
+		position: fixed;
+	    width: 100vw;
+	    height: 100vh;
+	    background: #a5d5b80a;
+	    z-index: -1;
+	    cursor: pointer;
+	    transition: all .89s ease;
+	    opacity: 0;
+	    transform: translateX(200vw);
+	    right: 0px;
+	    top: 0px;
+	}
+
     &.open {
     	transform: none;
-    	box-shadow: -8px 1px 16px 1px rgba(0, 0, 0, 0.1)
+    	box-shadow: -8px 1px 16px 1px rgba(0, 0, 0, 0.1);
+
+    	.overlay { 
+    		transform: none;
+    		right: 0px;
+    	}
     }
 
     &.further-open {
@@ -383,18 +444,20 @@ header {
 
 	    .secondary-menu {
 	    	position: absolute;
-    		bottom: 20px;
+    		bottom: 2vh;
     		width: calc(100% - 29px);
 	    	
 	    	ul {
 	    		display: flex;
 	    		flex-direction: column;
 	    		padding: 0px;
-	    		font-size: calc(1.5vw + 4px);
+	    		font-size: calc(1.4vw + 3px);
 	    		justify-content: space-between;
+	    		line-height: 1.1;
 
 	    		@media (max-width: 900px) {
 					font-size: calc(3vw + 5px);
+					line-height: 1.5;
 				}
 
 	    		li {
@@ -482,6 +545,12 @@ header {
     	}
 	}
 
+	.apply-content {
+		@media (max-width: 900px) {
+	    	margin-top: 10vh;
+	    }
+	}
+
 	.close {
 		position: absolute;
 		top: 15px;
@@ -493,6 +562,13 @@ header {
 	    padding: 15px;
 	    border-radius: 65px;
 	    cursor: pointer;
+
+	     @media (max-width: 900px) {
+	     	box-sizing: border-box;
+	     	width: 20vw;
+	     	left: 40vw;
+	     	font-size: 2.2vh;
+	     }
 	}
 }
 
@@ -554,7 +630,7 @@ header {
 	z-index: 3;
 
 	@media (max-width: 900px) {
-		margin-top: 78vh;
+		margin-top: 70vh;
 	}
 
 	.news-controls {
@@ -761,10 +837,10 @@ header {
 					padding: 10px;
 
 					@media (max-width: 900px) {
-				    padding: 0px;
-				    height: 6vh;
-				    width: 24vw;
-				    min-width: 110px;
+					    padding: 0px;
+					    height: 6vh;
+					    width: 24vw;
+					    min-width: 110px;
 					}	
 
 					li {
@@ -847,6 +923,22 @@ header {
 	    	width: 100%;
 	    	}
 
+	    .google-cal {
+		    margin-bottom: 10px;
+		    display: block;
+		    background: #9ed2b3;
+		    width: 19vw;
+		    text-align: center;
+		    border-radius: 20px;
+		    text-align: center;
+		    font-size: 15px;
+		    padding: 2px;
+
+		    @media (max-width: 900px) {
+		    	width: 100%;
+		    }
+		}
+
 	    .agenda-container {
 	    	padding-bottom: 20px;
 		    display: flex;
@@ -858,16 +950,28 @@ header {
 				    overflow: hidden;
 				    max-height: 10vw;
 				    transition: all .3s ease;
+				    padding: 0px;
+				    padding-top: 15px;
+
+				    @media (max-width: 900px) {
+				    	max-height: 77px;
+				    	font-size: 17px;
+				    	padding: 10px 0px;
+				    }
 
 				    &.open {
-				    	max-height: 100vh;
+				    	max-height: 300vh;
 				    }
 
 			    .event-item {
 			    	display: grid;
-			    	grid-template-columns: 2fr 7fr 1fr 1fr;
+			    	grid-template-columns: 2fr 7fr 2fr 1fr;
 			    	width: 100%;
 			    	cursor: pointer;
+
+			    	@media (max-width: 900px) {
+			    				grid-template-columns: 23vw 62vw 11vw;
+			    			}
 
 			    	&:hover {
 			    		opacity: .8;
@@ -881,15 +985,46 @@ header {
 			    		width: 19vw;
 			    	}
 
+			    	.time {
+			    		.endtime {
+			    			@media (max-width: 900px) {
+			    				display: none;
+			    			}
+			    		}
+			    	}
+
 			    	.time-and-kind {
 			    		text-align: right;
 			    	}
+
+			    	.kind {
+			    		@media (max-width: 900px) {
+						    grid-column: 3;
+						    grid-row: 2;
+						    position: absolute;
+						    right: 0px;
+						    margin-top: -7px;
+						}
+
+						ul {
+							padding: 0px;	
+						}
+					}
+
+					.time {
+						font-variant: tabular-nums;
+						font-size: 90%;
+					}
 
 			    	li {
 			    		a {
 			    			position: relative;
 			    			width: 100%;
 			    			text-align: center;
+
+			    			@media (max-width: 900px) {
+			    				display: none;
+			    			}
 			    		}
 			    	}
 	
@@ -900,13 +1035,29 @@ header {
 			    		grid-template-columns: 2fr 7fr 2fr;
 			    		margin-top: 4vw;
 
+			    		@media (max-width: 900px) {
+			    				grid-template-columns: 1fr;
+							    font-size: 12px;
+							    margin-left: calc(23vw + 3px);
+			    			}
+
 			    		.details {
 			    			width: 19vw;
 			    			font-size: 15px;
 			    			letter-spacing: 0;
 
+			    			@media (max-width: 900px) {
+			    				font-size: 12px;
+			    				margin-top: 20px;
+			    				width: auto;
+			    			}
+
 			    			span {
 			    				display: block;
+
+			    					@media (max-width: 900px) {
+	    								overflow-wrap: break-word;	
+	    							}
 			    			}
 
 			    		}
@@ -915,6 +1066,12 @@ header {
 						    width: 40vw;
 						    font-size: 15px;
 						    letter-spacing: 0;
+
+						    @media (max-width: 900px) {
+			    				font-size: 12px;
+			    				margin-top: 20px;
+			    				width: 85%;
+			    			}
 
 						    p:first-child {
 						    	margin-top: 0px;
@@ -1280,7 +1437,7 @@ header {
 			    background: white;
 			    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 76%, rgba(255,255,255,0) 100%);
 			    top: 0px;
-			    padding-top: 100px;
+			    padding-top: 27vw;
 			    padding-bottom: 60px;
 			}
 
@@ -1396,7 +1553,8 @@ header {
     	.blb-close {
     		margin-top: -5px;
     		text-transform: lowercase;
-    		color: red;
+    		color: $aka-green;
+    		cursor: pointer;
     	}
     }
     
@@ -1721,3 +1879,50 @@ html.is-animating .transition-fade {
              border: 1px solid black;
   }
 }
+
+@keyframes mobile-opener {
+  0% {
+            height: 10vh;
+  }
+
+  /* 50% {
+            height: 30vh;
+  }
+
+  75% {
+            height: 50vh;
+  }
+
+  87.5% {
+            height: 70vh;
+  }
+
+  93.75% {
+            height: 90vh;
+  }
+  */
+    50% {
+            height: 100vh;
+  }
+
+  100% {
+            height: 0vh;
+  }
+}
+
+@keyframes loading-gone {
+
+	  0% {
+            height: 100vh;
+  }
+
+   99% {
+            height: 0vh;
+  }
+
+   100% {
+            height: 0vh;
+            display: none;
+  }
+
+	}

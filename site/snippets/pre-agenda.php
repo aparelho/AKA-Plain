@@ -4,7 +4,7 @@
 <div class="agenda-container">
 	<div class="current">
 		<div class="menu-header agenda-header">
-			Events
+			<?php echo t('events') ?>
 		</div>
 	<?php foreach ($pages->find('agenda')
 							->children()
@@ -53,7 +53,7 @@
 	</div>
 
 	  <footer>
-	  	<a href="<?= $pages->find('agenda')->url() ?>"><button>View Full Agenda</button></a>
+	  	<a href="<?= $pages->find('agenda')->url() ?>"><button><?php echo t('calfull') ?></button></a>
 	  </footer>
 </div>
 </section>

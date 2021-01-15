@@ -1,5 +1,7 @@
 <?php snippet ('header') ?>
 
+<?php snippet ('loading') ?>
+
 <main>
 <?php snippet ('intro') ?>
 
