@@ -68,6 +68,20 @@ $(document).ready(function () {
        $(".collab-closer").removeClass("available");
     });
 
+      $(".loading").mouseenter((e) => {
+    sessionStorage.setItem('popup', true);
+  });
+
     $(".mobile-loading").delay(1350).fadeOut(250);
+
+    $(".desk-loading").delay(5750).fadeOut(250);
+
+    $(".animation-holder").delay(1350).addClass("ready");
+
+    const popup = sessionStorage.getItem('popup')
+
+  if (popup) {
+    $('.loading').css('display', 'none');
+  }
 
 });

@@ -34,7 +34,7 @@
 </div>
 
 <div class="collaborators lg-txt">
-		<span class="title member-title"><?php echo t('collab') ?></span>
+		<span class="title member-title collaborator-title"><?php echo t('collab') ?></span>
 	<ul>
 		<?php 
 		// using the `toStructure()` method, we create a structure collection

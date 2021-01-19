@@ -16,3 +16,8 @@
 	</div>
 
 </div>
+
+<div class="loading desk-loading">
+	<div class="animation-holder"></div>
+	<div class="dark"></div>
+</div>

@@ -20,7 +20,7 @@ return [
         'googlecal' => 'se på google kalender',
         'more' => 'Meny',
         'menu' => 'Meny',
-        'journal' => 'Nyheter.',
+        'journal' => 'Nyheter',
         'collab' => 'Samarbeid',
         'members' => 'Medlemmer',
     ],

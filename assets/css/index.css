@@ -82,9 +82,12 @@ html {
   overflow: hidden;
 }
 .loading.mobile-loading {
-  /*animation: loading-gone ease 2s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;*/
+  display: none;
+}
+@media (max-width: 900px) {
+  .loading.mobile-loading {
+    display: block;
+  }
 }
 .loading.mobile-loading .mask {
   overflow: hidden;
@@ -104,6 +107,50 @@ html {
   height: 10vh;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.loading.desk-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: heightshort ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 4.3s;
+}
+@media (max-width: 900px) {
+  .loading.desk-loading {
+    display: none;
+  }
+}
+.loading.desk-loading .dark {
+  position: absolute;
+  width: 100vw;
+  background: black;
+  /* background-blend-mode: color; */
+  /* mix-blend-mode: difference; */
+  /* z-index: -1; */
+  bottom: 0px;
+  animation: heightlong 0.3s ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3.8s;
+  transition: all 0.3s ease;
+}
+.loading.desk-loading .animation-holder {
+  background-image: url("../images/ld/bg-1.png");
+  width: 100vw;
+  height: 14vh;
+  background-position-x: 100vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.75s cubic-bezier(0.75, -1.1, 0.21, 2.17);
+}
+.loading.desk-loading .animation-holder.ready {
+  background-position-x: center;
+  animation: bgalteration steps(1) 3s;
+  animation-iteration-count: 2;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
 }
 
 .global-wrapper {
@@ -868,6 +915,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
 }
 .pre-agenda.full-agenda .agenda-container .event-wrapper .event-item .date {
   width: 19vw;
+  min-height: 7vw;
 }
 @media (max-width: 900px) {
   .pre-agenda.full-agenda .agenda-container .event-wrapper .event-item .time .endtime {
@@ -1265,6 +1313,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   width: auto;
   line-height: 1.1;
   color: #605FA5;
+  text-transform: lowercase;
 }
 @media (max-width: 900px) {
   .about-content .about-nav {
@@ -1421,6 +1470,15 @@ header .shortcuts .menu-caller .caller-helper:hover {
   z-index: 99999;
   position: fixed;
   transition: all 0.5s ease;
+  text-transform: lowercase;
+}
+.faculty-main .collab-closer.mobile-only {
+  display: none;
+}
+@media (max-width: 900px) {
+  .faculty-main .collab-closer.mobile-only {
+    display: block;
+  }
 }
 .faculty-main .collab-closer.available {
   right: 10px;
@@ -1441,7 +1499,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
   margin-bottom: 14px;
 }
 .faculty-main .title.collaborator-title {
-  background: #c9b198;
+  background: #BFBEE4;
   margin-top: 25px;
 }
 .faculty-main .collab-wrapper {
@@ -1505,6 +1563,7 @@ header .shortcuts .menu-caller .caller-helper:hover {
     opacity: 1;
     transition: all 0.3s ease;
     padding-top: 10vh;
+    box-shadow: -8px 1px 16px 1px rgba(0, 0, 0, 0.1);
   }
   .faculty-main ul li .collab-details.open {
     left: 20%;
@@ -1671,6 +1730,22 @@ html.is-animating .transition-fade {
     border: 1px solid black;
   }
 }
+@keyframes heightshort {
+  0% {
+    height: 100vh;
+  }
+  100% {
+    height: 0vh;
+  }
+}
+@keyframes heightlong {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
 @keyframes mobile-opener {
   0% {
     height: 10vh;
@@ -1708,6 +1783,31 @@ html.is-animating .transition-fade {
   100% {
     height: 0vh;
     display: none;
+  }
+}
+@keyframes bgalteration {
+  0% {
+    background-image: url("../images/ld/bg-1.png");
+  }
+  16% {
+    background-image: url("../images/ld/bg-2.png");
+    transition: all 0s linear;
+  }
+  32% {
+    background-image: url("../images/ld/bg-3.png");
+    transition: all 0s linear;
+  }
+  48% {
+    background-image: url("../images/ld/bg-4.png");
+    transition: all 0s linear;
+  }
+  64% {
+    background-image: url("../images/ld/bg-5.png");
+    transition: all 0s linear;
+  }
+  80% {
+    background-image: url("../images/ld/bg-6.png");
+    transition: all 0.1s linear;
   }
 }
 

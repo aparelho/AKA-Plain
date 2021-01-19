@@ -117,9 +117,11 @@ html {
 
 	&.mobile-loading {
 
-		/*animation: loading-gone ease 2s;
-		animation-delay: 2s;
-		animation-fill-mode: forwards;*/
+		display: none;
+
+		@media (max-width: 900px) {
+			 display: block;
+			}
 
 		.mask {
 			overflow: hidden;
@@ -143,6 +145,55 @@ html {
 			}
 		}
 	}
+
+	&.desk-loading {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		animation: heightshort ease .5s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-delay: 4.3s;
+
+		@media (max-width: 900px) {
+			 display: none;
+			}
+
+		.dark {
+		    position: absolute;
+		    width: 100vw;
+		    background: black;
+		    /* background-blend-mode: color; */
+		    /* mix-blend-mode: difference; */
+		    /* z-index: -1; */
+		    bottom: 0px;
+		    animation: heightlong .3s ease;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-delay: 3.8s;
+			transition: all .3s ease;
+
+		}
+
+		.animation-holder {
+			background-image: url('../images/ld/bg-1.png');
+			width: 100vw;
+		    height: 14vh;
+		    background-position-x: 100vw;
+		    background-repeat: no-repeat;
+		    background-size: contain;
+		    transition: all .75s cubic-bezier(0.75, -1.1, 0.21, 2.17);
+
+		    &.ready {
+		    	background-position-x: center;
+		    	animation: bgalteration steps(1) 3s;
+				animation-iteration-count: 2;
+				animation-fill-mode: forwards;
+				animation-delay: .8s;
+		    }
+		}	
+	}
+
 }
 
 .global-wrapper {
@@ -983,6 +1034,7 @@ header {
 
 			    	.date {
 			    		width: 19vw;
+			    		min-height: 7vw;
 			    	}
 
 			    	.time {
@@ -1425,6 +1477,7 @@ header {
 	    width: auto;
 	    line-height: 1.1;
 	    color: $aka-blue;
+	    text-transform: lowercase;
 
 	     @media (max-width: 900px) {
 			    right: 10px;
@@ -1604,6 +1657,16 @@ header {
 		z-index: 99999;
 		position: fixed;
 		transition: all .5s ease;
+		text-transform: lowercase;
+
+
+			    &.mobile-only {
+			    	display: none;
+
+			    	 @media (max-width: 900px) {
+			    	 	display: block;
+			    	 }
+			    }
 
 		&.available {
 			right: 10px;
@@ -1626,7 +1689,7 @@ header {
     	margin-bottom: 14px;
 
 		&.collaborator-title {
-			background: $aka-light-brown;
+			background: $aka-light-blue;
 			margin-top: 25px;
 		}
 	}
@@ -1694,6 +1757,7 @@ header {
     					  opacity: 1;
     					  transition: all .3s ease;
     					  padding-top: 10vh;
+    					  box-shadow: -8px 1px 16px 1px rgba(0, 0, 0, 0.1);
 
     					  &.open {
     					  	left: 20%;
@@ -1880,6 +1944,28 @@ html.is-animating .transition-fade {
   }
 }
 
+@keyframes heightshort {
+	0% {
+            height: 100vh;
+  }
+
+  100% {
+            height: 0vh;
+  }
+
+}
+
+@keyframes heightlong {
+	0% {
+            height: 0vh;
+  }
+
+  100% {
+            height: 100vh;
+  }
+
+}
+
 @keyframes mobile-opener {
   0% {
             height: 10vh;
@@ -1923,6 +2009,40 @@ html.is-animating .transition-fade {
    100% {
             height: 0vh;
             display: none;
+  }
+
+	}
+
+
+@keyframes bgalteration {
+
+	  0% {
+            background-image: url('../images/ld/bg-1.png');
+  }
+
+   16% {
+            background-image: url('../images/ld/bg-2.png');
+            transition: all .0s linear;
+  }
+
+   32% {
+            background-image: url('../images/ld/bg-3.png');
+            transition: all .0s linear;
+  }
+
+   48% {
+            background-image: url('../images/ld/bg-4.png');
+            transition: all .0s linear;
+  }
+
+    64% {
+            background-image: url('../images/ld/bg-5.png');
+            transition: all .0s linear;
+  }
+
+    80% {
+            background-image: url('../images/ld/bg-6.png');
+            transition: all .1s linear;
   }
 
 	}
