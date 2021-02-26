@@ -1893,6 +1893,39 @@ html.is-animating .transition-fade {
 								transition: all 500ms;
 								filter: blur(0px);
 							}
+#soon {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: white;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease;
+    font-size: 4vmin;
+    letter-spacing: -0.07em;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+
+    &.gone {
+    	bottom: 110vh;
+    	top: -100px;
+    }
+
+    .soon-reveal {
+	    position: absolute;
+	    bottom: 20px;
+	    right: 20px;
+	    width: calc(100vw - 40px);
+	    background: #f7f7f76e;
+	    height: 10vh;
+	    border-radius: 100px;
+	}
+}
+
 
 
 /* 

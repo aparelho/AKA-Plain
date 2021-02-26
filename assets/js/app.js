@@ -68,6 +68,11 @@ $(document).ready(function () {
        $(".collab-closer").removeClass("available");
     });
 
+    $(".soon-reveal").click(() => {
+      $("#soon").addClass("gone");
+      $("#soon").delay(3000).fadeOut();
+    });
+
       $(".loading").mouseenter((e) => {
     sessionStorage.setItem('popup', true);
   });

@@ -23,6 +23,7 @@
 
 <body>
 	<?php snippet ('apply') ?>
+	<?php snippet ('soon') ?>
 
 	<div class="global-wrapper">
 		<header>
